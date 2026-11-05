@@ -20,7 +20,7 @@ WIKI_URL = "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
 SEC_BASE = "https://data.sec.gov/api/xbrl/companyfacts/CIK{cik}.json"
 CONTACT = os.getenv("SEC_CONTACT", "moat-radar research contact moat-radar@example.org")
 # Set SEC_CONTACT to a real contact email before production collection.
-BATCH = min(max(int(os.getenv("BATCH_SIZE", "75")), 1), 200)
+BATCH = min(max(int(os.getenv("BATCH_SIZE", "75")), 1), 550)
 PAUSE = float(os.getenv("SEC_REQUEST_PAUSE", "0.35"))
 MAX_AGE_DAYS = 540
 
@@ -133,9 +133,12 @@ def main():
     today = datetime.now(timezone.utc).date()
     # Refresh missing filings first, then least-recently-checked records.
     candidates = sorted(universe, key=lambda c: (previous.get(c["ticker"], {}).get("checked_at") or ""))
+    missing = sum(not previous.get(c["ticker"], {}).get("checked_at") for c in universe)
+    # Fill missing filings first. Only rotate 75 companies when full coverage exists.
+    limit = min(len(universe), BATCH if missing else 75)
     errors = []
     completed = 0
-    for company in candidates[:BATCH]:
+    for company in candidates[:limit]:
         ticker = company["ticker"]
         try:
             doc = json.loads(fetch(SEC_BASE.format(cik=company["cik"])))
@@ -173,7 +176,9 @@ def main():
         "universe": "S&P 500",
         "universe_source": WIKI_URL,
         "universe_count": len(universe),
-        "batch_attempted": min(len(candidates), BATCH),
+        "batch_attempted": min(len(candidates), limit),
+        "sec_fetched_count": sum(bool(x.get("checked_at")) for x in output),
+        "coverage_percent": round(100 * sum(bool(x.get("checked_at")) for x in output) / len(output), 1),
         "batch_completed": completed,
         "batch_errors": errors,
         "companies": output
