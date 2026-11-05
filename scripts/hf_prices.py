@@ -13,11 +13,12 @@ import urllib.request
 import urllib.error
 from datetime import date,datetime
 from pathlib import Path
+from urllib.parse import urlsplit
 
 ROOT=Path(__file__).resolve().parents[1]
 DATA=ROOT/"data"/"companies.json"
 API="https://api.hfdatalibrary.com/v1"
-ATTRIBUTION=("Elkassabgi, A. (2026), HF Data Library, DOI:10.5281/zenodo.19501605. "
+ATTRIBUTION=("Elkassabgi, A. (2026), HF Data Library, DOI:10.5281/zenodo.19501604. "
              "Data provided for free by IEX. By accessing or using IEX Historical Data, "
              "you agree to the IEX Historical Data Terms of Use.")
 def get(url,key=None):
@@ -28,6 +29,15 @@ def get(url,key=None):
 def allowed_symbols():
     x=json.loads(get(API+"/symbols"))
     return {str(item.get("ticker","")).upper() for item in x.get("symbols",[]) if isinstance(item,dict)}
+def validated_download_url(url,ticker):
+    """Reject any signed URL outside the provider's exact host and ticker path."""
+    p=urlsplit(url)
+    if p.scheme!="https" or p.netloc!="api.hfdatalibrary.com":
+        raise ValueError("Untrusted signed download URL")
+    if p.path!=f"/v1/download/{ticker}" or not p.query:
+        raise ValueError("Unexpected signed download path or missing token")
+    return url
+
 def latest_row(body,today):
     reader=csv.DictReader(io.StringIO(body.decode("utf-8-sig")))
     if not reader.fieldnames: return None
@@ -70,11 +80,11 @@ def main():
             params=f"?timeframe=daily&format=csv&version=clean"
             token=json.loads(get(API+"/download-token/"+ticker+params,key))
             url=token["url"]
-            if not url.startswith(API+"/download/"):raise ValueError("Unexpected download host/path")
+            url=validated_download_url(url,ticker)
             record=latest_row(get(url),today)
             if record:
                 c["iex_reference"]={**record,"checked_at":today.isoformat(),
-                   "source":"HF Data Library / IEX-only", "adjusted":True,
+                   "source":"HF Data Library / IEX-only", "split_adjusted":True, "dividend_adjusted":False,
                    "license":"CC BY 4.0 + IEX HIST terms",
                    "reference_only":True,"not_consolidated":True}
                 completed+=1
