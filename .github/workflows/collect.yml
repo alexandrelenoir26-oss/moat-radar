@@ -27,6 +27,10 @@ jobs:
           BATCH_SIZE: '75'
           SEC_REQUEST_PAUSE: '0.40'
         run: python scripts/collect.py
+      - name: Verify financial scoring rules
+        run: python -m unittest discover -s tests -v
+      - name: Calculate provisional financial quality scores
+        run: python scripts/score.py
       - name: Commit collected public data (if changed)
         run: |
           git config user.name "github-actions[bot]"
