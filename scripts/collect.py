@@ -125,9 +125,9 @@ def record_for(company, document):
     }
 
 def main():
-    if CONTACT.endswith("@example.org"):
+    if not CONTACT.strip() or "@" not in CONTACT or CONTACT.endswith("@example.org"):
         raise SystemExit("Set SEC_CONTACT to a genuine contact address before collecting SEC data.")
-    universe = parse_universe(fetch(WIKI_URL, headers={"User-Agent": "MOAT Radar educational nonprofit data project"}))
+    universe = parse_universe(fetch(WIKI_URL))
     old = json.loads(DATA.read_text(encoding="utf-8")) if DATA.exists() else {}
     previous = {x["ticker"]: x for x in old.get("companies", [])}
     today = datetime.now(timezone.utc).date()
