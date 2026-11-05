@@ -69,11 +69,11 @@ The public interface uses exploratory financial-only indicators with partial cov
 A legitimate, **free and redistributable** reference price source has been identified:
 [HF Data Library](https://hfdatalibrary.com/pages/api), with [CC BY 4.0 terms](https://hfdatalibrary.com/pages/data) and required [IEX historical data attribution](https://www.iex.io/legal/hist-data-terms).
 
-- Covers a fixed universe of **1,391 tickers** (stocks + ETFs, some delisted), not all S&P 500 names or all listed US companies.
+- Covers a fixed universe of **1,253 tickers** (stocks + ETFs, some delisted), not all S&P 500 names or all listed US companies.
 - Since March 2022, observations come from **IEX only**, not the consolidated US market tape; may omit trades and differ from official closing quotes.
-- Prices in its processed files are **split/dividend adjusted**, so they are **not suitable as direct inputs to SEC-shares × price market capitalization or investment valuation**.
+- Prices in its processed files are **split-adjusted (not dividend-adjusted)**, so they are **not suitable as direct inputs to SEC-shares × price market capitalization or investment valuation**.
 - The service requires an individual **free API key that expires every 30 days**. Automatic collection is therefore conditional on keeping the key current. The key must remain a GitHub Actions *secret*, never a committed file.
-- This is a research reference price, not a trade execution quote or validated market cap.
+- This is a research reference price, not a trade execution quote or validated market cap. Provider labels its content as academic research rather than investment/trading use; do not employ it to generate or advertise investment recommendations.
 
 ### One-time activation
 
@@ -84,6 +84,9 @@ A legitimate, **free and redistributable** reference price source has been ident
 
 IEX historical data legal attribution: **Data provided for free by IEX. By accessing or using IEX Historical Data, you agree to the [IEX Historical Data Terms of Use](https://www.iex.io/legal/hist-data-terms).**
 
-HF Data Library citation: Elkassabgi, A. (2026). *HF Data Library: Free 1-Minute Intraday U.S. Equity Data.* Zenodo, DOI: [10.5281/zenodo.19501605](https://doi.org/10.5281/zenodo.19501605).
+HF Data Library citation: Elkassabgi, A. (2026). *HF Data Library: Free 1-Minute Intraday U.S. Equity Data.* Zenodo, DOI: [10.5281/zenodo.19501604](https://doi.org/10.5281/zenodo.19501604).
 
 **Honest limitation:** This solves access to an attributed, free historic price reference, *not* the complete automated PER/valuation problem. For accurate current market cap and reliable cross-company valuation we still need a suitable unadjusted, company-matched, redistribution-permitted market price plus current share counts and corporate-action controls.
+
+### Operational caveat (November 2026)
+HF's published API documents the signed URL as a **full absolute https:// URL**, not a relative path. The importer validates the exact provider domain and ticker path. Free keys expire every 30 days, so this integration is **not fully unattended indefinitely**. The source says *for academic research only* and prices cover IEX's single trading venue (~2–3% of consolidated volume). It is therefore used only for attributed research context, not for financial decision signals. Latest documentation states **1,253** tickers and split (not dividend) adjustments; the public availability endpoint remains the authority for exact current coverage.
