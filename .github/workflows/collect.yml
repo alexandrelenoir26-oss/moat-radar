@@ -5,6 +5,8 @@ on:
     paths:
       - 'scripts/collect.py'
       - 'scripts/score.py'
+      - 'scripts/valuation.py'
+      - 'data/market_caps.csv'
       - 'tests/**'
       - '.github/workflows/collect.yml'
   schedule:
@@ -38,6 +40,8 @@ jobs:
         run: python -m unittest discover -s tests -v
       - name: Calculate provisional financial quality scores
         run: python scripts/score.py
+      - name: Compute licensed valuation metrics (only if authorized inputs exist)
+        run: python scripts/valuation.py
       - name: Commit collected public data (if changed)
         run: |
           git config user.name "github-actions[bot]"
