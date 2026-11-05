@@ -1,4 +1,4 @@
-# MOAT Radar
+> **Architecture decision (2026-11-06):** MOAT Radar production must run indefinitely without monthly API-key renewal. The HF Data Library / IEX importer is retained as an optional experimental script, but is no longer called by the scheduled GitHub Actions workflow. Its data must not be used to issue investment signals. The supported unattended production data source remains SEC EDGAR. For valuation, assess SEC public quarterly Form 13F holdings as a *lagged historical reference* subject to security-identifier reconciliation, splits, 13F coverage gaps and filing accuracy. This is not a live price feed and cannot be marketed as a current PER or buy signal. No market data supplier has yet been identified that is simultaneously free, legally redistributable, complete and current.\n\n# MOAT Radar
 
 Open-source experimental investment research dashboard, hosted on GitHub Pages.
 
@@ -79,7 +79,7 @@ A legitimate, **free and redistributable** reference price source has been ident
 
 1. [Register for a free HF Data Library account](https://hfdatalibrary.com/pages/download); obtain your `X-API-Key` per the [API documentation](https://hfdatalibrary.com/pages/api).
 2. In [this repo's GitHub Actions secrets](https://github.com/alexandrelenoir26-oss/moat-radar/settings/secrets/actions), create a secret `HF_DATA_API_KEY` with the key value. **Never post the key in chat or publish it.**
-3. The existing *Collect SEC fundamentals* workflow will call `scripts/hf_prices.py` after the financial scoring; if the secret is absent it skips safely.
+3. The HF importer is deliberately **not scheduled** in production: its 30-day key lifetime is incompatible with the permanent unattended workflow. It can be run manually only as an experiment with a valid key, subject to provider terms.
 4. The importer processes up to 60 available tickers per daily workflow. It imports only recent observations with trades, flags them as adjusted and IEX-only, and includes source/attribution and observation dates. The site displays them as **Référence IEX**, not as market cap, intrinsic value or verified closing price.
 
 IEX historical data legal attribution: **Data provided for free by IEX. By accessing or using IEX Historical Data, you agree to the [IEX Historical Data Terms of Use](https://www.iex.io/legal/hist-data-terms).**
