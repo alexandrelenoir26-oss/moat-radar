@@ -6,6 +6,7 @@ on:
       - 'scripts/collect.py'
       - 'scripts/score.py'
       - 'scripts/valuation.py'
+      - 'scripts/hf_prices.py'
       - 'data/market_caps.csv'
       - 'tests/**'
       - '.github/workflows/collect.yml'
@@ -42,6 +43,11 @@ jobs:
         run: python scripts/score.py
       - name: Compute licensed valuation metrics (only if authorized inputs exist)
         run: python scripts/valuation.py
+      - name: Add attributed IEX-only reference observations (optional)
+        env:
+          HF_DATA_API_KEY: ${{ secrets.HF_DATA_API_KEY }}
+          HF_PRICE_BATCH: '60'
+        run: python scripts/hf_prices.py
       - name: Commit collected public data (if changed)
         run: |
           git config user.name "github-actions[bot]"
