@@ -1,7 +1,7 @@
 {
   "updated_at": "2026-11-05T20:37:14.428324+00:00",
   "source_label": "SEC EDGAR + S&P 500 (Wikipedia)",
-  "notice": "Données comptables SEC publiques : collecte progressive. Le PER, le moat, le scoring et les signaux d'achat ne sont pas encore calculés. Statut « données insuffisantes » par sécurité.",
+  "notice": "12 scores financiers préliminaires calculés à partir des données SEC. Moat et valorisation non évalués ; aucun signal d'achat validé.",
   "universe": "S&P 500",
   "universe_source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
   "universe_count": 503,
@@ -61,7 +61,29 @@
       },
       "coverage": 6,
       "reason": "Cours de marché et évaluation qualitative du moat non disponibles ; aucun signal de valorisation autorisé.",
-      "checked_at": "2026-11-05"
+      "checked_at": "2026-11-05",
+      "quality_financial": 28,
+      "quality_details": {
+        "score": 28,
+        "metrics": {
+          "net_margin": 0.13027,
+          "free_cash_flow_margin": 0.05596,
+          "cash_conversion": 0.70954,
+          "equity_ratio": 0.13004
+        },
+        "components": {
+          "net_margin": 52.1,
+          "free_cash_flow_margin": 22.4,
+          "cash_conversion": 31,
+          "equity_ratio": 5
+        },
+        "model": "quality-financial-v1",
+        "annual_period": "2025-12-31",
+        "balance_period": "2026-09-30",
+        "interpretation": "Score financier préliminaire, sans validation du moat ou de la valorisation."
+      },
+      "quality_reason": null,
+      "moat": null
     },
     {
       "ticker": "AOS",
@@ -110,7 +132,11 @@
       },
       "coverage": 5,
       "reason": "Cours de marché et évaluation qualitative du moat non disponibles ; aucun signal de valorisation autorisé.",
-      "checked_at": "2026-11-05"
+      "checked_at": "2026-11-05",
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "ABT",
@@ -159,7 +185,11 @@
       },
       "coverage": 5,
       "reason": "Cours de marché et évaluation qualitative du moat non disponibles ; aucun signal de valorisation autorisé.",
-      "checked_at": "2026-11-05"
+      "checked_at": "2026-11-05",
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "ABBV",
@@ -208,7 +238,11 @@
       },
       "coverage": 5,
       "reason": "Cours de marché et évaluation qualitative du moat non disponibles ; aucun signal de valorisation autorisé.",
-      "checked_at": "2026-11-05"
+      "checked_at": "2026-11-05",
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "ACN",
@@ -257,7 +291,11 @@
       },
       "coverage": 5,
       "reason": "Cours de marché et évaluation qualitative du moat non disponibles ; aucun signal de valorisation autorisé.",
-      "checked_at": "2026-11-05"
+      "checked_at": "2026-11-05",
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "ADBE",
@@ -311,7 +349,29 @@
       },
       "coverage": 6,
       "reason": "Cours de marché et évaluation qualitative du moat non disponibles ; aucun signal de valorisation autorisé.",
-      "checked_at": "2026-11-05"
+      "checked_at": "2026-11-05",
+      "quality_financial": 87,
+      "quality_details": {
+        "score": 87,
+        "metrics": {
+          "net_margin": 0.29997,
+          "free_cash_flow_margin": 0.41449,
+          "cash_conversion": 1.40687,
+          "equity_ratio": 0.39238
+        },
+        "components": {
+          "net_margin": 100,
+          "free_cash_flow_margin": 100,
+          "cash_conversion": 100,
+          "equity_ratio": 48.7
+        },
+        "model": "quality-financial-v1",
+        "annual_period": "2025-11-28",
+        "balance_period": "2026-08-28",
+        "interpretation": "Score financier préliminaire, sans validation du moat ou de la valorisation."
+      },
+      "quality_reason": null,
+      "moat": null
     },
     {
       "ticker": "AMD",
@@ -360,7 +420,11 @@
       },
       "coverage": 5,
       "reason": "Cours de marché et évaluation qualitative du moat non disponibles ; aucun signal de valorisation autorisé.",
-      "checked_at": "2026-11-05"
+      "checked_at": "2026-11-05",
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "AES",
@@ -409,7 +473,11 @@
       },
       "coverage": 5,
       "reason": "Cours de marché et évaluation qualitative du moat non disponibles ; aucun signal de valorisation autorisé.",
-      "checked_at": "2026-11-05"
+      "checked_at": "2026-11-05",
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Modèle non adapté à ce secteur.",
+      "moat": null
     },
     {
       "ticker": "AFL",
@@ -458,7 +526,11 @@
       },
       "coverage": 5,
       "reason": "Cours de marché et évaluation qualitative du moat non disponibles ; aucun signal de valorisation autorisé.",
-      "checked_at": "2026-11-05"
+      "checked_at": "2026-11-05",
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Modèle non adapté à ce secteur.",
+      "moat": null
     },
     {
       "ticker": "A",
@@ -512,7 +584,29 @@
       },
       "coverage": 6,
       "reason": "Cours de marché et évaluation qualitative du moat non disponibles ; aucun signal de valorisation autorisé.",
-      "checked_at": "2026-11-05"
+      "checked_at": "2026-11-05",
+      "quality_financial": 73,
+      "quality_details": {
+        "score": 73,
+        "metrics": {
+          "net_margin": 0.18754,
+          "free_cash_flow_margin": 0.1658,
+          "cash_conversion": 1.19647,
+          "equity_ratio": 0.52717
+        },
+        "components": {
+          "net_margin": 75,
+          "free_cash_flow_margin": 66.3,
+          "cash_conversion": 79.6,
+          "equity_ratio": 71.2
+        },
+        "model": "quality-financial-v1",
+        "annual_period": "2025-10-31",
+        "balance_period": "2026-07-31",
+        "interpretation": "Score financier préliminaire, sans validation du moat ou de la valorisation."
+      },
+      "quality_reason": null,
+      "moat": null
     },
     {
       "ticker": "APD",
@@ -566,7 +660,11 @@
       },
       "coverage": 6,
       "reason": "Cours de marché et évaluation qualitative du moat non disponibles ; aucun signal de valorisation autorisé.",
-      "checked_at": "2026-11-05"
+      "checked_at": "2026-11-05",
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Dates comptables incompatibles.",
+      "moat": null
     },
     {
       "ticker": "ABNB",
@@ -620,7 +718,11 @@
       },
       "coverage": 6,
       "reason": "Cours de marché et évaluation qualitative du moat non disponibles ; aucun signal de valorisation autorisé.",
-      "checked_at": "2026-11-05"
+      "checked_at": "2026-11-05",
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Dates comptables incompatibles.",
+      "moat": null
     },
     {
       "ticker": "AKAM",
@@ -674,7 +776,11 @@
       },
       "coverage": 6,
       "reason": "Cours de marché et évaluation qualitative du moat non disponibles ; aucun signal de valorisation autorisé.",
-      "checked_at": "2026-11-05"
+      "checked_at": "2026-11-05",
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Dates comptables incompatibles.",
+      "moat": null
     },
     {
       "ticker": "ALB",
@@ -723,7 +829,11 @@
       },
       "coverage": 5,
       "reason": "Cours de marché et évaluation qualitative du moat non disponibles ; aucun signal de valorisation autorisé.",
-      "checked_at": "2026-11-05"
+      "checked_at": "2026-11-05",
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "ARE",
@@ -772,7 +882,11 @@
       },
       "coverage": 5,
       "reason": "Cours de marché et évaluation qualitative du moat non disponibles ; aucun signal de valorisation autorisé.",
-      "checked_at": "2026-11-05"
+      "checked_at": "2026-11-05",
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Modèle non adapté à ce secteur.",
+      "moat": null
     },
     {
       "ticker": "ALGN",
@@ -826,7 +940,29 @@
       },
       "coverage": 6,
       "reason": "Cours de marché et évaluation qualitative du moat non disponibles ; aucun signal de valorisation autorisé.",
-      "checked_at": "2026-11-05"
+      "checked_at": "2026-11-05",
+      "quality_financial": 71,
+      "quality_details": {
+        "score": 71,
+        "metrics": {
+          "net_margin": 0.1017,
+          "free_cash_flow_margin": 0.12163,
+          "cash_conversion": 1.44565,
+          "equity_ratio": 0.6603
+        },
+        "components": {
+          "net_margin": 40.7,
+          "free_cash_flow_margin": 48.7,
+          "cash_conversion": 100,
+          "equity_ratio": 93.4
+        },
+        "model": "quality-financial-v1",
+        "annual_period": "2025-12-31",
+        "balance_period": "2026-09-30",
+        "interpretation": "Score financier préliminaire, sans validation du moat ou de la valorisation."
+      },
+      "quality_reason": null,
+      "moat": null
     },
     {
       "ticker": "ALLE",
@@ -880,7 +1016,11 @@
       },
       "coverage": 6,
       "reason": "Cours de marché et évaluation qualitative du moat non disponibles ; aucun signal de valorisation autorisé.",
-      "checked_at": "2026-11-05"
+      "checked_at": "2026-11-05",
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Dates comptables incompatibles.",
+      "moat": null
     },
     {
       "ticker": "LNT",
@@ -929,7 +1069,11 @@
       },
       "coverage": 5,
       "reason": "Cours de marché et évaluation qualitative du moat non disponibles ; aucun signal de valorisation autorisé.",
-      "checked_at": "2026-11-05"
+      "checked_at": "2026-11-05",
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Modèle non adapté à ce secteur.",
+      "moat": null
     },
     {
       "ticker": "ALL",
@@ -983,7 +1127,11 @@
       },
       "coverage": 6,
       "reason": "Cours de marché et évaluation qualitative du moat non disponibles ; aucun signal de valorisation autorisé.",
-      "checked_at": "2026-11-05"
+      "checked_at": "2026-11-05",
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Modèle non adapté à ce secteur.",
+      "moat": null
     },
     {
       "ticker": "GOOGL",
@@ -1037,7 +1185,11 @@
       },
       "coverage": 6,
       "reason": "Cours de marché et évaluation qualitative du moat non disponibles ; aucun signal de valorisation autorisé.",
-      "checked_at": "2026-11-05"
+      "checked_at": "2026-11-05",
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Dates comptables incompatibles.",
+      "moat": null
     },
     {
       "ticker": "GOOG",
@@ -1091,7 +1243,11 @@
       },
       "coverage": 6,
       "reason": "Cours de marché et évaluation qualitative du moat non disponibles ; aucun signal de valorisation autorisé.",
-      "checked_at": "2026-11-05"
+      "checked_at": "2026-11-05",
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Dates comptables incompatibles.",
+      "moat": null
     },
     {
       "ticker": "MO",
@@ -1145,7 +1301,11 @@
       },
       "coverage": 6,
       "reason": "Cours de marché et évaluation qualitative du moat non disponibles ; aucun signal de valorisation autorisé.",
-      "checked_at": "2026-11-05"
+      "checked_at": "2026-11-05",
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Valeurs non adaptées au modèle.",
+      "moat": null
     },
     {
       "ticker": "AMZN",
@@ -1194,7 +1354,11 @@
       },
       "coverage": 5,
       "reason": "Cours de marché et évaluation qualitative du moat non disponibles ; aucun signal de valorisation autorisé.",
-      "checked_at": "2026-11-05"
+      "checked_at": "2026-11-05",
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "AMCR",
@@ -1248,7 +1412,11 @@
       },
       "coverage": 6,
       "reason": "Cours de marché et évaluation qualitative du moat non disponibles ; aucun signal de valorisation autorisé.",
-      "checked_at": "2026-11-05"
+      "checked_at": "2026-11-05",
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Dates comptables incompatibles.",
+      "moat": null
     },
     {
       "ticker": "AEE",
@@ -1297,7 +1465,11 @@
       },
       "coverage": 5,
       "reason": "Cours de marché et évaluation qualitative du moat non disponibles ; aucun signal de valorisation autorisé.",
-      "checked_at": "2026-11-05"
+      "checked_at": "2026-11-05",
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Modèle non adapté à ce secteur.",
+      "moat": null
     },
     {
       "ticker": "AEP",
@@ -1351,7 +1523,11 @@
       },
       "coverage": 6,
       "reason": "Cours de marché et évaluation qualitative du moat non disponibles ; aucun signal de valorisation autorisé.",
-      "checked_at": "2026-11-05"
+      "checked_at": "2026-11-05",
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Modèle non adapté à ce secteur.",
+      "moat": null
     },
     {
       "ticker": "AXP",
@@ -1405,7 +1581,11 @@
       },
       "coverage": 6,
       "reason": "Cours de marché et évaluation qualitative du moat non disponibles ; aucun signal de valorisation autorisé.",
-      "checked_at": "2026-11-05"
+      "checked_at": "2026-11-05",
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Modèle non adapté à ce secteur.",
+      "moat": null
     },
     {
       "ticker": "AIG",
@@ -1454,7 +1634,11 @@
       },
       "coverage": 5,
       "reason": "Cours de marché et évaluation qualitative du moat non disponibles ; aucun signal de valorisation autorisé.",
-      "checked_at": "2026-11-05"
+      "checked_at": "2026-11-05",
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Modèle non adapté à ce secteur.",
+      "moat": null
     },
     {
       "ticker": "AMT",
@@ -1508,7 +1692,11 @@
       },
       "coverage": 6,
       "reason": "Cours de marché et évaluation qualitative du moat non disponibles ; aucun signal de valorisation autorisé.",
-      "checked_at": "2026-11-05"
+      "checked_at": "2026-11-05",
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Modèle non adapté à ce secteur.",
+      "moat": null
     },
     {
       "ticker": "AWK",
@@ -1557,7 +1745,11 @@
       },
       "coverage": 5,
       "reason": "Cours de marché et évaluation qualitative du moat non disponibles ; aucun signal de valorisation autorisé.",
-      "checked_at": "2026-11-05"
+      "checked_at": "2026-11-05",
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Modèle non adapté à ce secteur.",
+      "moat": null
     },
     {
       "ticker": "AMP",
@@ -1606,7 +1798,11 @@
       },
       "coverage": 5,
       "reason": "Cours de marché et évaluation qualitative du moat non disponibles ; aucun signal de valorisation autorisé.",
-      "checked_at": "2026-11-05"
+      "checked_at": "2026-11-05",
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Modèle non adapté à ce secteur.",
+      "moat": null
     },
     {
       "ticker": "AME",
@@ -1660,7 +1856,29 @@
       },
       "coverage": 6,
       "reason": "Cours de marché et évaluation qualitative du moat non disponibles ; aucun signal de valorisation autorisé.",
-      "checked_at": "2026-11-05"
+      "checked_at": "2026-11-05",
+      "quality_financial": 81,
+      "quality_details": {
+        "score": 81,
+        "metrics": {
+          "net_margin": 0.19999,
+          "free_cash_flow_margin": 0.22585,
+          "cash_conversion": 1.21729,
+          "equity_ratio": 0.52242
+        },
+        "components": {
+          "net_margin": 80,
+          "free_cash_flow_margin": 90.3,
+          "cash_conversion": 81.7,
+          "equity_ratio": 70.4
+        },
+        "model": "quality-financial-v1",
+        "annual_period": "2025-12-31",
+        "balance_period": "2026-09-30",
+        "interpretation": "Score financier préliminaire, sans validation du moat ou de la valorisation."
+      },
+      "quality_reason": null,
+      "moat": null
     },
     {
       "ticker": "AMGN",
@@ -1709,7 +1927,11 @@
       },
       "coverage": 5,
       "reason": "Cours de marché et évaluation qualitative du moat non disponibles ; aucun signal de valorisation autorisé.",
-      "checked_at": "2026-11-05"
+      "checked_at": "2026-11-05",
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "APH",
@@ -1763,7 +1985,29 @@
       },
       "coverage": 6,
       "reason": "Cours de marché et évaluation qualitative du moat non disponibles ; aucun signal de valorisation autorisé.",
-      "checked_at": "2026-11-05"
+      "checked_at": "2026-11-05",
+      "quality_financial": 70,
+      "quality_details": {
+        "score": 70,
+        "metrics": {
+          "net_margin": 0.1849,
+          "free_cash_flow_margin": 0.18957,
+          "cash_conversion": 1.25862,
+          "equity_ratio": 0.36731
+        },
+        "components": {
+          "net_margin": 74,
+          "free_cash_flow_margin": 75.8,
+          "cash_conversion": 85.9,
+          "equity_ratio": 44.6
+        },
+        "model": "quality-financial-v1",
+        "annual_period": "2025-12-31",
+        "balance_period": "2026-09-30",
+        "interpretation": "Score financier préliminaire, sans validation du moat ou de la valorisation."
+      },
+      "quality_reason": null,
+      "moat": null
     },
     {
       "ticker": "ADI",
@@ -1812,7 +2056,11 @@
       },
       "coverage": 5,
       "reason": "Cours de marché et évaluation qualitative du moat non disponibles ; aucun signal de valorisation autorisé.",
-      "checked_at": "2026-11-05"
+      "checked_at": "2026-11-05",
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "AON",
@@ -1866,7 +2114,11 @@
       },
       "coverage": 6,
       "reason": "Cours de marché et évaluation qualitative du moat non disponibles ; aucun signal de valorisation autorisé.",
-      "checked_at": "2026-11-05"
+      "checked_at": "2026-11-05",
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Modèle non adapté à ce secteur.",
+      "moat": null
     },
     {
       "ticker": "APA",
@@ -1905,7 +2157,11 @@
       },
       "coverage": 3,
       "reason": "Cours de marché et évaluation qualitative du moat non disponibles ; aucun signal de valorisation autorisé.",
-      "checked_at": "2026-11-05"
+      "checked_at": "2026-11-05",
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "APO",
@@ -1954,7 +2210,11 @@
       },
       "coverage": 5,
       "reason": "Cours de marché et évaluation qualitative du moat non disponibles ; aucun signal de valorisation autorisé.",
-      "checked_at": "2026-11-05"
+      "checked_at": "2026-11-05",
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Modèle non adapté à ce secteur.",
+      "moat": null
     },
     {
       "ticker": "AAPL",
@@ -2008,7 +2268,29 @@
       },
       "coverage": 6,
       "reason": "Cours de marché et évaluation qualitative du moat non disponibles ; aucun signal de valorisation autorisé.",
-      "checked_at": "2026-11-05"
+      "checked_at": "2026-11-05",
+      "quality_financial": 75,
+      "quality_details": {
+        "score": 75,
+        "metrics": {
+          "net_margin": 0.27604,
+          "free_cash_flow_margin": 0.28414,
+          "cash_conversion": 1.09776,
+          "equity_ratio": 0.27708
+        },
+        "components": {
+          "net_margin": 100,
+          "free_cash_flow_margin": 100,
+          "cash_conversion": 69.8,
+          "equity_ratio": 29.5
+        },
+        "model": "quality-financial-v1",
+        "annual_period": "2026-09-26",
+        "balance_period": "2026-09-26",
+        "interpretation": "Score financier préliminaire, sans validation du moat ou de la valorisation."
+      },
+      "quality_reason": null,
+      "moat": null
     },
     {
       "ticker": "AMAT",
@@ -2062,7 +2344,29 @@
       },
       "coverage": 6,
       "reason": "Cours de marché et évaluation qualitative du moat non disponibles ; aucun signal de valorisation autorisé.",
-      "checked_at": "2026-11-05"
+      "checked_at": "2026-11-05",
+      "quality_financial": 84,
+      "quality_details": {
+        "score": 84,
+        "metrics": {
+          "net_margin": 0.24669,
+          "free_cash_flow_margin": 0.20086,
+          "cash_conversion": 1.13718,
+          "equity_ratio": 0.58881
+        },
+        "components": {
+          "net_margin": 98.7,
+          "free_cash_flow_margin": 80.3,
+          "cash_conversion": 73.7,
+          "equity_ratio": 81.5
+        },
+        "model": "quality-financial-v1",
+        "annual_period": "2025-10-26",
+        "balance_period": "2026-07-26",
+        "interpretation": "Score financier préliminaire, sans validation du moat ou de la valorisation."
+      },
+      "quality_reason": null,
+      "moat": null
     },
     {
       "ticker": "APP",
@@ -2116,7 +2420,11 @@
       },
       "coverage": 6,
       "reason": "Cours de marché et évaluation qualitative du moat non disponibles ; aucun signal de valorisation autorisé.",
-      "checked_at": "2026-11-05"
+      "checked_at": "2026-11-05",
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Dates comptables incompatibles.",
+      "moat": null
     },
     {
       "ticker": "APTV",
@@ -2170,7 +2478,11 @@
       },
       "coverage": 6,
       "reason": "Cours de marché et évaluation qualitative du moat non disponibles ; aucun signal de valorisation autorisé.",
-      "checked_at": "2026-11-05"
+      "checked_at": "2026-11-05",
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Dates comptables incompatibles.",
+      "moat": null
     },
     {
       "ticker": "ACGL",
@@ -2219,7 +2531,11 @@
       },
       "coverage": 5,
       "reason": "Cours de marché et évaluation qualitative du moat non disponibles ; aucun signal de valorisation autorisé.",
-      "checked_at": "2026-11-05"
+      "checked_at": "2026-11-05",
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Modèle non adapté à ce secteur.",
+      "moat": null
     },
     {
       "ticker": "ADM",
@@ -2268,7 +2584,11 @@
       },
       "coverage": 5,
       "reason": "Cours de marché et évaluation qualitative du moat non disponibles ; aucun signal de valorisation autorisé.",
-      "checked_at": "2026-11-05"
+      "checked_at": "2026-11-05",
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "ARES",
@@ -2322,7 +2642,11 @@
       },
       "coverage": 6,
       "reason": "Cours de marché et évaluation qualitative du moat non disponibles ; aucun signal de valorisation autorisé.",
-      "checked_at": "2026-11-05"
+      "checked_at": "2026-11-05",
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Modèle non adapté à ce secteur.",
+      "moat": null
     },
     {
       "ticker": "ANET",
@@ -2376,7 +2700,11 @@
       },
       "coverage": 6,
       "reason": "Cours de marché et évaluation qualitative du moat non disponibles ; aucun signal de valorisation autorisé.",
-      "checked_at": "2026-11-05"
+      "checked_at": "2026-11-05",
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Dates comptables incompatibles.",
+      "moat": null
     },
     {
       "ticker": "AJG",
@@ -2430,7 +2758,11 @@
       },
       "coverage": 6,
       "reason": "Cours de marché et évaluation qualitative du moat non disponibles ; aucun signal de valorisation autorisé.",
-      "checked_at": "2026-11-05"
+      "checked_at": "2026-11-05",
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Modèle non adapté à ce secteur.",
+      "moat": null
     },
     {
       "ticker": "AIZ",
@@ -2484,7 +2816,11 @@
       },
       "coverage": 6,
       "reason": "Cours de marché et évaluation qualitative du moat non disponibles ; aucun signal de valorisation autorisé.",
-      "checked_at": "2026-11-05"
+      "checked_at": "2026-11-05",
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Modèle non adapté à ce secteur.",
+      "moat": null
     },
     {
       "ticker": "T",
@@ -2538,7 +2874,11 @@
       },
       "coverage": 6,
       "reason": "Cours de marché et évaluation qualitative du moat non disponibles ; aucun signal de valorisation autorisé.",
-      "checked_at": "2026-11-05"
+      "checked_at": "2026-11-05",
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Dates comptables incompatibles.",
+      "moat": null
     },
     {
       "ticker": "ATO",
@@ -2582,7 +2922,11 @@
       },
       "coverage": 4,
       "reason": "Cours de marché et évaluation qualitative du moat non disponibles ; aucun signal de valorisation autorisé.",
-      "checked_at": "2026-11-05"
+      "checked_at": "2026-11-05",
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Modèle non adapté à ce secteur.",
+      "moat": null
     },
     {
       "ticker": "ADSK",
@@ -2631,7 +2975,11 @@
       },
       "coverage": 5,
       "reason": "Cours de marché et évaluation qualitative du moat non disponibles ; aucun signal de valorisation autorisé.",
-      "checked_at": "2026-11-05"
+      "checked_at": "2026-11-05",
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "ADP",
@@ -2680,7 +3028,11 @@
       },
       "coverage": 5,
       "reason": "Cours de marché et évaluation qualitative du moat non disponibles ; aucun signal de valorisation autorisé.",
-      "checked_at": "2026-11-05"
+      "checked_at": "2026-11-05",
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "AZO",
@@ -2729,7 +3081,11 @@
       },
       "coverage": 5,
       "reason": "Cours de marché et évaluation qualitative du moat non disponibles ; aucun signal de valorisation autorisé.",
-      "checked_at": "2026-11-05"
+      "checked_at": "2026-11-05",
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "AVY",
@@ -2778,7 +3134,11 @@
       },
       "coverage": 5,
       "reason": "Cours de marché et évaluation qualitative du moat non disponibles ; aucun signal de valorisation autorisé.",
-      "checked_at": "2026-11-05"
+      "checked_at": "2026-11-05",
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "AXON",
@@ -2832,7 +3192,29 @@
       },
       "coverage": 6,
       "reason": "Cours de marché et évaluation qualitative du moat non disponibles ; aucun signal de valorisation autorisé.",
-      "checked_at": "2026-11-05"
+      "checked_at": "2026-11-05",
+      "quality_financial": 48,
+      "quality_details": {
+        "score": 48,
+        "metrics": {
+          "net_margin": 0.04485,
+          "free_cash_flow_margin": 0.02701,
+          "cash_conversion": 1.69538,
+          "equity_ratio": 0.49117
+        },
+        "components": {
+          "net_margin": 17.9,
+          "free_cash_flow_margin": 10.8,
+          "cash_conversion": 100,
+          "equity_ratio": 65.2
+        },
+        "model": "quality-financial-v1",
+        "annual_period": "2025-12-31",
+        "balance_period": "2026-06-30",
+        "interpretation": "Score financier préliminaire, sans validation du moat ou de la valorisation."
+      },
+      "quality_reason": null,
+      "moat": null
     },
     {
       "ticker": "BKR",
@@ -2881,7 +3263,11 @@
       },
       "coverage": 5,
       "reason": "Cours de marché et évaluation qualitative du moat non disponibles ; aucun signal de valorisation autorisé.",
-      "checked_at": "2026-11-05"
+      "checked_at": "2026-11-05",
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "BALL",
@@ -2935,7 +3321,11 @@
       },
       "coverage": 6,
       "reason": "Cours de marché et évaluation qualitative du moat non disponibles ; aucun signal de valorisation autorisé.",
-      "checked_at": "2026-11-05"
+      "checked_at": "2026-11-05",
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Dates comptables incompatibles.",
+      "moat": null
     },
     {
       "ticker": "BAC",
@@ -2984,7 +3374,11 @@
       },
       "coverage": 5,
       "reason": "Cours de marché et évaluation qualitative du moat non disponibles ; aucun signal de valorisation autorisé.",
-      "checked_at": "2026-11-05"
+      "checked_at": "2026-11-05",
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Modèle non adapté à ce secteur.",
+      "moat": null
     },
     {
       "ticker": "BAX",
@@ -3033,7 +3427,11 @@
       },
       "coverage": 5,
       "reason": "Cours de marché et évaluation qualitative du moat non disponibles ; aucun signal de valorisation autorisé.",
-      "checked_at": "2026-11-05"
+      "checked_at": "2026-11-05",
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "BDX",
@@ -3082,7 +3480,11 @@
       },
       "coverage": 5,
       "reason": "Cours de marché et évaluation qualitative du moat non disponibles ; aucun signal de valorisation autorisé.",
-      "checked_at": "2026-11-05"
+      "checked_at": "2026-11-05",
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "BRK.B",
@@ -3136,7 +3538,11 @@
       },
       "coverage": 6,
       "reason": "Cours de marché et évaluation qualitative du moat non disponibles ; aucun signal de valorisation autorisé.",
-      "checked_at": "2026-11-05"
+      "checked_at": "2026-11-05",
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Modèle non adapté à ce secteur.",
+      "moat": null
     },
     {
       "ticker": "BBY",
@@ -3185,7 +3591,11 @@
       },
       "coverage": 5,
       "reason": "Cours de marché et évaluation qualitative du moat non disponibles ; aucun signal de valorisation autorisé.",
-      "checked_at": "2026-11-05"
+      "checked_at": "2026-11-05",
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "TECH",
@@ -3234,7 +3644,11 @@
       },
       "coverage": 5,
       "reason": "Cours de marché et évaluation qualitative du moat non disponibles ; aucun signal de valorisation autorisé.",
-      "checked_at": "2026-11-05"
+      "checked_at": "2026-11-05",
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "BIIB",
@@ -3288,7 +3702,29 @@
       },
       "coverage": 6,
       "reason": "Cours de marché et évaluation qualitative du moat non disponibles ; aucun signal de valorisation autorisé.",
-      "checked_at": "2026-11-05"
+      "checked_at": "2026-11-05",
+      "quality_financial": 79,
+      "quality_details": {
+        "score": 79,
+        "metrics": {
+          "net_margin": 0.13072,
+          "free_cash_flow_margin": 0.20735,
+          "cash_conversion": 1.70516,
+          "equity_ratio": 0.59032
+        },
+        "components": {
+          "net_margin": 52.3,
+          "free_cash_flow_margin": 82.9,
+          "cash_conversion": 100,
+          "equity_ratio": 81.7
+        },
+        "model": "quality-financial-v1",
+        "annual_period": "2025-12-31",
+        "balance_period": "2026-09-30",
+        "interpretation": "Score financier préliminaire, sans validation du moat ou de la valorisation."
+      },
+      "quality_reason": null,
+      "moat": null
     },
     {
       "ticker": "BLK",
@@ -3342,7 +3778,11 @@
       },
       "coverage": 6,
       "reason": "Cours de marché et évaluation qualitative du moat non disponibles ; aucun signal de valorisation autorisé.",
-      "checked_at": "2026-11-05"
+      "checked_at": "2026-11-05",
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Modèle non adapté à ce secteur.",
+      "moat": null
     },
     {
       "ticker": "BX",
@@ -3396,7 +3836,11 @@
       },
       "coverage": 6,
       "reason": "Cours de marché et évaluation qualitative du moat non disponibles ; aucun signal de valorisation autorisé.",
-      "checked_at": "2026-11-05"
+      "checked_at": "2026-11-05",
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Modèle non adapté à ce secteur.",
+      "moat": null
     },
     {
       "ticker": "XYZ",
@@ -3450,7 +3894,11 @@
       },
       "coverage": 6,
       "reason": "Cours de marché et évaluation qualitative du moat non disponibles ; aucun signal de valorisation autorisé.",
-      "checked_at": "2026-11-05"
+      "checked_at": "2026-11-05",
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Modèle non adapté à ce secteur.",
+      "moat": null
     },
     {
       "ticker": "BE",
@@ -3504,7 +3952,11 @@
       },
       "coverage": 6,
       "reason": "Cours de marché et évaluation qualitative du moat non disponibles ; aucun signal de valorisation autorisé.",
-      "checked_at": "2026-11-05"
+      "checked_at": "2026-11-05",
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Dates comptables incompatibles.",
+      "moat": null
     },
     {
       "ticker": "BNY",
@@ -3558,7 +4010,11 @@
       },
       "coverage": 6,
       "reason": "Cours de marché et évaluation qualitative du moat non disponibles ; aucun signal de valorisation autorisé.",
-      "checked_at": "2026-11-05"
+      "checked_at": "2026-11-05",
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Modèle non adapté à ce secteur.",
+      "moat": null
     },
     {
       "ticker": "BA",
@@ -3612,7 +4068,11 @@
       },
       "coverage": 6,
       "reason": "Cours de marché et évaluation qualitative du moat non disponibles ; aucun signal de valorisation autorisé.",
-      "checked_at": "2026-11-05"
+      "checked_at": "2026-11-05",
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Dates comptables incompatibles.",
+      "moat": null
     },
     {
       "ticker": "BKNG",
@@ -3666,7 +4126,11 @@
       },
       "coverage": 6,
       "reason": "Cours de marché et évaluation qualitative du moat non disponibles ; aucun signal de valorisation autorisé.",
-      "checked_at": "2026-11-05"
+      "checked_at": "2026-11-05",
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Dates comptables incompatibles.",
+      "moat": null
     },
     {
       "ticker": "BSX",
@@ -3710,7 +4174,11 @@
       },
       "coverage": 4,
       "reason": "Cours de marché et évaluation qualitative du moat non disponibles ; aucun signal de valorisation autorisé.",
-      "checked_at": "2026-11-05"
+      "checked_at": "2026-11-05",
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "BMY",
@@ -3764,7 +4232,29 @@
       },
       "coverage": 6,
       "reason": "Cours de marché et évaluation qualitative du moat non disponibles ; aucun signal de valorisation autorisé.",
-      "checked_at": "2026-11-05"
+      "checked_at": "2026-11-05",
+      "quality_financial": 71,
+      "quality_details": {
+        "score": 71,
+        "metrics": {
+          "net_margin": 0.14637,
+          "free_cash_flow_margin": 0.26653,
+          "cash_conversion": 2.0068,
+          "equity_ratio": 0.26364
+        },
+        "components": {
+          "net_margin": 58.5,
+          "free_cash_flow_margin": 100,
+          "cash_conversion": 100,
+          "equity_ratio": 27.3
+        },
+        "model": "quality-financial-v1",
+        "annual_period": "2025-12-31",
+        "balance_period": "2026-09-30",
+        "interpretation": "Score financier préliminaire, sans validation du moat ou de la valorisation."
+      },
+      "quality_reason": null,
+      "moat": null
     },
     {
       "ticker": "AVGO",
@@ -3818,7 +4308,11 @@
       },
       "coverage": 6,
       "reason": "Cours de marché et évaluation qualitative du moat non disponibles ; aucun signal de valorisation autorisé.",
-      "checked_at": "2026-11-05"
+      "checked_at": "2026-11-05",
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Dates comptables incompatibles.",
+      "moat": null
     },
     {
       "ticker": "BR",
@@ -3872,7 +4366,29 @@
       },
       "coverage": 6,
       "reason": "Cours de marché et évaluation qualitative du moat non disponibles ; aucun signal de valorisation autorisé.",
-      "checked_at": "2026-11-05"
+      "checked_at": "2026-11-05",
+      "quality_financial": 61,
+      "quality_details": {
+        "score": 61,
+        "metrics": {
+          "net_margin": 0.15037,
+          "free_cash_flow_margin": 0.17098,
+          "cash_conversion": 1.19683,
+          "equity_ratio": 0.30342
+        },
+        "components": {
+          "net_margin": 60.1,
+          "free_cash_flow_margin": 68.4,
+          "cash_conversion": 79.7,
+          "equity_ratio": 33.9
+        },
+        "model": "quality-financial-v1",
+        "annual_period": "2026-06-30",
+        "balance_period": "2026-09-30",
+        "interpretation": "Score financier préliminaire, sans validation du moat ou de la valorisation."
+      },
+      "quality_reason": null,
+      "moat": null
     },
     {
       "ticker": "BRO",
@@ -3885,7 +4401,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Modèle non adapté à ce secteur.",
+      "moat": null
     },
     {
       "ticker": "BF.B",
@@ -3898,7 +4418,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "BG",
@@ -3911,7 +4435,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "BXP",
@@ -3924,7 +4452,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Modèle non adapté à ce secteur.",
+      "moat": null
     },
     {
       "ticker": "CHRW",
@@ -3937,7 +4469,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "CDNS",
@@ -3950,7 +4486,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "CPT",
@@ -3963,7 +4503,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Modèle non adapté à ce secteur.",
+      "moat": null
     },
     {
       "ticker": "COF",
@@ -3976,7 +4520,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Modèle non adapté à ce secteur.",
+      "moat": null
     },
     {
       "ticker": "CAH",
@@ -3989,7 +4537,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "CCL",
@@ -4002,7 +4554,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "CARR",
@@ -4015,7 +4571,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "CVNA",
@@ -4028,7 +4588,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "CASY",
@@ -4041,7 +4605,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "CAT",
@@ -4054,7 +4622,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "CBOE",
@@ -4067,7 +4639,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Modèle non adapté à ce secteur.",
+      "moat": null
     },
     {
       "ticker": "CBRE",
@@ -4080,7 +4656,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Modèle non adapté à ce secteur.",
+      "moat": null
     },
     {
       "ticker": "CDW",
@@ -4093,7 +4673,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "COR",
@@ -4106,7 +4690,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "CNC",
@@ -4119,7 +4707,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "CNP",
@@ -4132,7 +4724,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Modèle non adapté à ce secteur.",
+      "moat": null
     },
     {
       "ticker": "CF",
@@ -4145,7 +4741,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "CRL",
@@ -4158,7 +4758,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "SCHW",
@@ -4171,7 +4775,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Modèle non adapté à ce secteur.",
+      "moat": null
     },
     {
       "ticker": "CHTR",
@@ -4184,7 +4792,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "CVX",
@@ -4197,7 +4809,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "CMG",
@@ -4210,7 +4826,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "CB",
@@ -4223,7 +4843,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Modèle non adapté à ce secteur.",
+      "moat": null
     },
     {
       "ticker": "CHD",
@@ -4236,7 +4860,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "CIEN",
@@ -4249,7 +4877,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "CI",
@@ -4262,7 +4894,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "CINF",
@@ -4275,7 +4911,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Modèle non adapté à ce secteur.",
+      "moat": null
     },
     {
       "ticker": "CTAS",
@@ -4288,7 +4928,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "CSCO",
@@ -4301,7 +4945,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "C",
@@ -4314,7 +4962,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Modèle non adapté à ce secteur.",
+      "moat": null
     },
     {
       "ticker": "CFG",
@@ -4327,7 +4979,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Modèle non adapté à ce secteur.",
+      "moat": null
     },
     {
       "ticker": "CLX",
@@ -4340,7 +4996,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "CME",
@@ -4353,7 +5013,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Modèle non adapté à ce secteur.",
+      "moat": null
     },
     {
       "ticker": "CMS",
@@ -4366,7 +5030,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Modèle non adapté à ce secteur.",
+      "moat": null
     },
     {
       "ticker": "KO",
@@ -4379,7 +5047,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "CTSH",
@@ -4392,7 +5064,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "COHR",
@@ -4405,7 +5081,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "COIN",
@@ -4418,7 +5098,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Modèle non adapté à ce secteur.",
+      "moat": null
     },
     {
       "ticker": "CL",
@@ -4431,7 +5115,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "CMCSA",
@@ -4444,7 +5132,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "FIX",
@@ -4457,7 +5149,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "COP",
@@ -4470,7 +5166,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "ED",
@@ -4483,7 +5183,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Modèle non adapté à ce secteur.",
+      "moat": null
     },
     {
       "ticker": "STZ",
@@ -4496,7 +5200,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "CEG",
@@ -4509,7 +5217,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Modèle non adapté à ce secteur.",
+      "moat": null
     },
     {
       "ticker": "COO",
@@ -4522,7 +5234,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "CPRT",
@@ -4535,7 +5251,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "GLW",
@@ -4548,7 +5268,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "CPAY",
@@ -4561,7 +5285,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Modèle non adapté à ce secteur.",
+      "moat": null
     },
     {
       "ticker": "CSGP",
@@ -4574,7 +5302,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Modèle non adapté à ce secteur.",
+      "moat": null
     },
     {
       "ticker": "COST",
@@ -4587,7 +5319,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "CRH",
@@ -4600,7 +5336,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "CRWD",
@@ -4613,7 +5353,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "CCI",
@@ -4626,7 +5370,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Modèle non adapté à ce secteur.",
+      "moat": null
     },
     {
       "ticker": "CSX",
@@ -4639,7 +5387,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "CMI",
@@ -4652,7 +5404,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "CVS",
@@ -4665,7 +5421,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "DHR",
@@ -4678,7 +5438,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "DRI",
@@ -4691,7 +5455,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "DDOG",
@@ -4704,7 +5472,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "DVA",
@@ -4717,7 +5489,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "DECK",
@@ -4730,7 +5506,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "DE",
@@ -4743,7 +5523,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "DELL",
@@ -4756,7 +5540,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "DAL",
@@ -4769,7 +5557,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "DVN",
@@ -4782,7 +5574,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "DXCM",
@@ -4795,7 +5591,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "FANG",
@@ -4808,7 +5608,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "DLR",
@@ -4821,7 +5625,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Modèle non adapté à ce secteur.",
+      "moat": null
     },
     {
       "ticker": "DG",
@@ -4834,7 +5642,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "DLTR",
@@ -4847,7 +5659,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "D",
@@ -4860,7 +5676,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Modèle non adapté à ce secteur.",
+      "moat": null
     },
     {
       "ticker": "DPZ",
@@ -4873,7 +5693,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "DASH",
@@ -4886,7 +5710,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "DOV",
@@ -4899,7 +5727,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "DOW",
@@ -4912,7 +5744,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "DHI",
@@ -4925,7 +5761,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "DTE",
@@ -4938,7 +5778,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Modèle non adapté à ce secteur.",
+      "moat": null
     },
     {
       "ticker": "DUK",
@@ -4951,7 +5795,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Modèle non adapté à ce secteur.",
+      "moat": null
     },
     {
       "ticker": "DD",
@@ -4964,7 +5812,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "ETN",
@@ -4977,7 +5829,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "EBAY",
@@ -4990,7 +5846,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "ECHO",
@@ -5003,7 +5863,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "ECL",
@@ -5016,7 +5880,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "EIX",
@@ -5029,7 +5897,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Modèle non adapté à ce secteur.",
+      "moat": null
     },
     {
       "ticker": "EW",
@@ -5042,7 +5914,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "ELV",
@@ -5055,7 +5931,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "EME",
@@ -5068,7 +5948,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "EMR",
@@ -5081,7 +5965,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "ETR",
@@ -5094,7 +5982,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Modèle non adapté à ce secteur.",
+      "moat": null
     },
     {
       "ticker": "EOG",
@@ -5107,7 +5999,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "EQT",
@@ -5120,7 +6016,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "EFX",
@@ -5133,7 +6033,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "EQIX",
@@ -5146,7 +6050,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Modèle non adapté à ce secteur.",
+      "moat": null
     },
     {
       "ticker": "ERIE",
@@ -5159,7 +6067,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Modèle non adapté à ce secteur.",
+      "moat": null
     },
     {
       "ticker": "ESS",
@@ -5172,7 +6084,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Modèle non adapté à ce secteur.",
+      "moat": null
     },
     {
       "ticker": "EL",
@@ -5185,7 +6101,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "EG",
@@ -5198,7 +6118,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Modèle non adapté à ce secteur.",
+      "moat": null
     },
     {
       "ticker": "EVRG",
@@ -5211,7 +6135,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Modèle non adapté à ce secteur.",
+      "moat": null
     },
     {
       "ticker": "P",
@@ -5224,7 +6152,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "ES",
@@ -5237,7 +6169,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Modèle non adapté à ce secteur.",
+      "moat": null
     },
     {
       "ticker": "EXC",
@@ -5250,7 +6186,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Modèle non adapté à ce secteur.",
+      "moat": null
     },
     {
       "ticker": "EXE",
@@ -5263,7 +6203,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "EXPE",
@@ -5276,7 +6220,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "EXPD",
@@ -5289,7 +6237,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "EXR",
@@ -5302,7 +6254,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Modèle non adapté à ce secteur.",
+      "moat": null
     },
     {
       "ticker": "XOM",
@@ -5315,7 +6271,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "FFIV",
@@ -5328,7 +6288,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "FDS",
@@ -5341,7 +6305,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Modèle non adapté à ce secteur.",
+      "moat": null
     },
     {
       "ticker": "FICO",
@@ -5354,7 +6322,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "FAST",
@@ -5367,7 +6339,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "FRT",
@@ -5380,7 +6356,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Modèle non adapté à ce secteur.",
+      "moat": null
     },
     {
       "ticker": "FDX",
@@ -5393,7 +6373,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "FDXF",
@@ -5406,7 +6390,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "FERG",
@@ -5419,7 +6407,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "FIS",
@@ -5432,7 +6424,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Modèle non adapté à ce secteur.",
+      "moat": null
     },
     {
       "ticker": "FITB",
@@ -5445,7 +6441,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Modèle non adapté à ce secteur.",
+      "moat": null
     },
     {
       "ticker": "FSLR",
@@ -5458,7 +6458,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "FE",
@@ -5471,7 +6475,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Modèle non adapté à ce secteur.",
+      "moat": null
     },
     {
       "ticker": "FISV",
@@ -5484,7 +6492,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Modèle non adapté à ce secteur.",
+      "moat": null
     },
     {
       "ticker": "FLEX",
@@ -5497,7 +6509,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "F",
@@ -5510,7 +6526,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "FTNT",
@@ -5523,7 +6543,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "FTV",
@@ -5536,7 +6560,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "FOXA",
@@ -5549,7 +6577,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "FOX",
@@ -5562,7 +6594,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "BEN",
@@ -5575,7 +6611,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Modèle non adapté à ce secteur.",
+      "moat": null
     },
     {
       "ticker": "FCX",
@@ -5588,7 +6628,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "GRMN",
@@ -5601,7 +6645,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "IT",
@@ -5614,7 +6662,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "GE",
@@ -5627,7 +6679,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "GEHC",
@@ -5640,7 +6696,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "GEV",
@@ -5653,7 +6713,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "GEN",
@@ -5666,7 +6730,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "GNRC",
@@ -5679,7 +6747,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "GD",
@@ -5692,7 +6764,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "GIS",
@@ -5705,7 +6781,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "GM",
@@ -5718,7 +6798,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "GPC",
@@ -5731,7 +6815,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "GILD",
@@ -5744,7 +6832,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "GPN",
@@ -5757,7 +6849,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Modèle non adapté à ce secteur.",
+      "moat": null
     },
     {
       "ticker": "GL",
@@ -5770,7 +6866,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Modèle non adapté à ce secteur.",
+      "moat": null
     },
     {
       "ticker": "GDDY",
@@ -5783,7 +6883,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "GS",
@@ -5796,7 +6900,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Modèle non adapté à ce secteur.",
+      "moat": null
     },
     {
       "ticker": "HAL",
@@ -5809,7 +6917,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "HIG",
@@ -5822,7 +6934,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Modèle non adapté à ce secteur.",
+      "moat": null
     },
     {
       "ticker": "HAS",
@@ -5835,7 +6951,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "HCA",
@@ -5848,7 +6968,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "DOC",
@@ -5861,7 +6985,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Modèle non adapté à ce secteur.",
+      "moat": null
     },
     {
       "ticker": "HSIC",
@@ -5874,7 +7002,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "HSY",
@@ -5887,7 +7019,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "HPE",
@@ -5900,7 +7036,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "HLT",
@@ -5913,7 +7053,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "HD",
@@ -5926,7 +7070,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "HONA",
@@ -5939,7 +7087,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "HON",
@@ -5952,7 +7104,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "HRL",
@@ -5965,7 +7121,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "HST",
@@ -5978,7 +7138,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Modèle non adapté à ce secteur.",
+      "moat": null
     },
     {
       "ticker": "HWM",
@@ -5991,7 +7155,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "HPQ",
@@ -6004,7 +7172,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "HUBB",
@@ -6017,7 +7189,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "HUM",
@@ -6030,7 +7206,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "HBAN",
@@ -6043,7 +7223,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Modèle non adapté à ce secteur.",
+      "moat": null
     },
     {
       "ticker": "HII",
@@ -6056,7 +7240,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "IBM",
@@ -6069,7 +7257,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "IEX",
@@ -6082,7 +7274,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "IDXX",
@@ -6095,7 +7291,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "ITW",
@@ -6108,7 +7308,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "ILMN",
@@ -6121,7 +7325,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "INCY",
@@ -6134,7 +7342,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "IR",
@@ -6147,7 +7359,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "PODD",
@@ -6160,7 +7376,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "INTC",
@@ -6173,7 +7393,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "IBKR",
@@ -6186,7 +7410,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Modèle non adapté à ce secteur.",
+      "moat": null
     },
     {
       "ticker": "ICE",
@@ -6199,7 +7427,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Modèle non adapté à ce secteur.",
+      "moat": null
     },
     {
       "ticker": "IFF",
@@ -6212,7 +7444,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "IP",
@@ -6225,7 +7461,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "INTU",
@@ -6238,7 +7478,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "ISRG",
@@ -6251,7 +7495,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "IVZ",
@@ -6264,7 +7512,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Modèle non adapté à ce secteur.",
+      "moat": null
     },
     {
       "ticker": "INVH",
@@ -6277,7 +7529,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Modèle non adapté à ce secteur.",
+      "moat": null
     },
     {
       "ticker": "IQV",
@@ -6290,7 +7546,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "IRM",
@@ -6303,7 +7563,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Modèle non adapté à ce secteur.",
+      "moat": null
     },
     {
       "ticker": "JBHT",
@@ -6316,7 +7580,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "JBL",
@@ -6329,7 +7597,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "JKHY",
@@ -6342,7 +7614,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Modèle non adapté à ce secteur.",
+      "moat": null
     },
     {
       "ticker": "J",
@@ -6355,7 +7631,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "JNJ",
@@ -6368,7 +7648,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "JCI",
@@ -6381,7 +7665,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "JPM",
@@ -6394,7 +7682,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Modèle non adapté à ce secteur.",
+      "moat": null
     },
     {
       "ticker": "KDP",
@@ -6407,7 +7699,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "KEY",
@@ -6420,7 +7716,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Modèle non adapté à ce secteur.",
+      "moat": null
     },
     {
       "ticker": "KEYS",
@@ -6433,7 +7733,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "KMB",
@@ -6446,7 +7750,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "KIM",
@@ -6459,7 +7767,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Modèle non adapté à ce secteur.",
+      "moat": null
     },
     {
       "ticker": "KMI",
@@ -6472,7 +7784,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "KKR",
@@ -6485,7 +7801,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Modèle non adapté à ce secteur.",
+      "moat": null
     },
     {
       "ticker": "KLAC",
@@ -6498,7 +7818,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "KHC",
@@ -6511,7 +7835,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "KR",
@@ -6524,7 +7852,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "LHX",
@@ -6537,7 +7869,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "LH",
@@ -6550,7 +7886,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "LRCX",
@@ -6563,7 +7903,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "LVS",
@@ -6576,7 +7920,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "LDOS",
@@ -6589,7 +7937,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "LEN",
@@ -6602,7 +7954,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "LII",
@@ -6615,7 +7971,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "LLY",
@@ -6628,7 +7988,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "LIN",
@@ -6641,7 +8005,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "LYV",
@@ -6654,7 +8022,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "LMT",
@@ -6667,7 +8039,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "L",
@@ -6680,7 +8056,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Modèle non adapté à ce secteur.",
+      "moat": null
     },
     {
       "ticker": "LOW",
@@ -6693,7 +8073,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "LULU",
@@ -6706,7 +8090,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "LITE",
@@ -6719,7 +8107,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "LYB",
@@ -6732,7 +8124,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "MTB",
@@ -6745,7 +8141,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Modèle non adapté à ce secteur.",
+      "moat": null
     },
     {
       "ticker": "MPC",
@@ -6758,7 +8158,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "MAR",
@@ -6771,7 +8175,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "MRSH",
@@ -6784,7 +8192,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Modèle non adapté à ce secteur.",
+      "moat": null
     },
     {
       "ticker": "MLM",
@@ -6797,7 +8209,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "MRVL",
@@ -6810,7 +8226,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "MAS",
@@ -6823,7 +8243,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "MA",
@@ -6836,7 +8260,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Modèle non adapté à ce secteur.",
+      "moat": null
     },
     {
       "ticker": "MKC",
@@ -6849,7 +8277,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "MCD",
@@ -6862,7 +8294,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "MCK",
@@ -6875,7 +8311,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "MDT",
@@ -6888,7 +8328,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "MRK",
@@ -6901,7 +8345,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "META",
@@ -6914,7 +8362,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "MET",
@@ -6927,7 +8379,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Modèle non adapté à ce secteur.",
+      "moat": null
     },
     {
       "ticker": "MTD",
@@ -6940,7 +8396,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "MGM",
@@ -6953,7 +8413,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "MCHP",
@@ -6966,7 +8430,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "MU",
@@ -6979,7 +8447,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "MSFT",
@@ -6992,7 +8464,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "MAA",
@@ -7005,7 +8481,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Modèle non adapté à ce secteur.",
+      "moat": null
     },
     {
       "ticker": "MRNA",
@@ -7018,7 +8498,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "MDLZ",
@@ -7031,7 +8515,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "MPWR",
@@ -7044,7 +8532,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "MNST",
@@ -7057,7 +8549,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "MCO",
@@ -7070,7 +8566,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Modèle non adapté à ce secteur.",
+      "moat": null
     },
     {
       "ticker": "MS",
@@ -7083,7 +8583,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Modèle non adapté à ce secteur.",
+      "moat": null
     },
     {
       "ticker": "MOS",
@@ -7096,7 +8600,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "MSI",
@@ -7109,7 +8617,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "MSCI",
@@ -7122,7 +8634,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Modèle non adapté à ce secteur.",
+      "moat": null
     },
     {
       "ticker": "NDAQ",
@@ -7135,7 +8651,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Modèle non adapté à ce secteur.",
+      "moat": null
     },
     {
       "ticker": "NTAP",
@@ -7148,7 +8668,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "NFLX",
@@ -7161,7 +8685,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "NEM",
@@ -7174,7 +8702,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "NWSA",
@@ -7187,7 +8719,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "NWS",
@@ -7200,7 +8736,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "NEE",
@@ -7213,7 +8753,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Modèle non adapté à ce secteur.",
+      "moat": null
     },
     {
       "ticker": "NKE",
@@ -7226,7 +8770,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "NI",
@@ -7239,7 +8787,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Modèle non adapté à ce secteur.",
+      "moat": null
     },
     {
       "ticker": "NDSN",
@@ -7252,7 +8804,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "NSC",
@@ -7265,7 +8821,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "NTRS",
@@ -7278,7 +8838,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Modèle non adapté à ce secteur.",
+      "moat": null
     },
     {
       "ticker": "NOC",
@@ -7291,7 +8855,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "NCLH",
@@ -7304,7 +8872,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "NRG",
@@ -7317,7 +8889,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Modèle non adapté à ce secteur.",
+      "moat": null
     },
     {
       "ticker": "NUE",
@@ -7330,7 +8906,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "NVDA",
@@ -7343,7 +8923,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "NVR",
@@ -7356,7 +8940,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "NXPI",
@@ -7369,7 +8957,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "ORLY",
@@ -7382,7 +8974,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "OXY",
@@ -7395,7 +8991,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "OKTA",
@@ -7408,7 +9008,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "ODFL",
@@ -7421,7 +9025,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "OMC",
@@ -7434,7 +9042,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "ON",
@@ -7447,7 +9059,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "OKE",
@@ -7460,7 +9076,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "ORCL",
@@ -7473,7 +9093,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "OTIS",
@@ -7486,7 +9110,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "PCAR",
@@ -7499,7 +9127,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "PKG",
@@ -7512,7 +9144,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "PLTR",
@@ -7525,7 +9161,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "PANW",
@@ -7538,7 +9178,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "PH",
@@ -7551,7 +9195,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "PAYX",
@@ -7564,7 +9212,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "PYPL",
@@ -7577,7 +9229,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Modèle non adapté à ce secteur.",
+      "moat": null
     },
     {
       "ticker": "PNR",
@@ -7590,7 +9246,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "PEP",
@@ -7603,7 +9263,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "PFE",
@@ -7616,7 +9280,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "PCG",
@@ -7629,7 +9297,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Modèle non adapté à ce secteur.",
+      "moat": null
     },
     {
       "ticker": "PM",
@@ -7642,7 +9314,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "PSX",
@@ -7655,7 +9331,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "PNW",
@@ -7668,7 +9348,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Modèle non adapté à ce secteur.",
+      "moat": null
     },
     {
       "ticker": "PNC",
@@ -7681,7 +9365,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Modèle non adapté à ce secteur.",
+      "moat": null
     },
     {
       "ticker": "PPG",
@@ -7694,7 +9382,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "PPL",
@@ -7707,7 +9399,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Modèle non adapté à ce secteur.",
+      "moat": null
     },
     {
       "ticker": "PFG",
@@ -7720,7 +9416,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Modèle non adapté à ce secteur.",
+      "moat": null
     },
     {
       "ticker": "PG",
@@ -7733,7 +9433,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "PGR",
@@ -7746,7 +9450,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Modèle non adapté à ce secteur.",
+      "moat": null
     },
     {
       "ticker": "PLD",
@@ -7759,7 +9467,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Modèle non adapté à ce secteur.",
+      "moat": null
     },
     {
       "ticker": "PRU",
@@ -7772,7 +9484,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Modèle non adapté à ce secteur.",
+      "moat": null
     },
     {
       "ticker": "PTC",
@@ -7785,7 +9501,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "PEG",
@@ -7798,7 +9518,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Modèle non adapté à ce secteur.",
+      "moat": null
     },
     {
       "ticker": "PSA",
@@ -7811,7 +9535,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Modèle non adapté à ce secteur.",
+      "moat": null
     },
     {
       "ticker": "PHM",
@@ -7824,7 +9552,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "Q",
@@ -7837,7 +9569,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "QCOM",
@@ -7850,7 +9586,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "PWR",
@@ -7863,7 +9603,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "DGX",
@@ -7876,7 +9620,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "RL",
@@ -7889,7 +9637,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "RJF",
@@ -7902,7 +9654,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Modèle non adapté à ce secteur.",
+      "moat": null
     },
     {
       "ticker": "RDDT",
@@ -7915,7 +9671,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "O",
@@ -7928,7 +9688,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Modèle non adapté à ce secteur.",
+      "moat": null
     },
     {
       "ticker": "REG",
@@ -7941,7 +9705,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Modèle non adapté à ce secteur.",
+      "moat": null
     },
     {
       "ticker": "REGN",
@@ -7954,7 +9722,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "RF",
@@ -7967,7 +9739,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Modèle non adapté à ce secteur.",
+      "moat": null
     },
     {
       "ticker": "RSG",
@@ -7980,7 +9756,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "RMD",
@@ -7993,7 +9773,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "RVTY",
@@ -8006,7 +9790,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "HOOD",
@@ -8019,7 +9807,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Modèle non adapté à ce secteur.",
+      "moat": null
     },
     {
       "ticker": "ROK",
@@ -8032,7 +9824,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "ROL",
@@ -8045,7 +9841,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "ROP",
@@ -8058,7 +9858,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "ROST",
@@ -8071,7 +9875,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "RCL",
@@ -8084,7 +9892,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "RTX",
@@ -8097,7 +9909,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "SPGI",
@@ -8110,7 +9926,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Modèle non adapté à ce secteur.",
+      "moat": null
     },
     {
       "ticker": "CRM",
@@ -8123,7 +9943,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "SNDK",
@@ -8136,7 +9960,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "SBAC",
@@ -8149,7 +9977,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Modèle non adapté à ce secteur.",
+      "moat": null
     },
     {
       "ticker": "SLB",
@@ -8162,7 +9994,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "STX",
@@ -8175,7 +10011,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "SRE",
@@ -8188,7 +10028,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Modèle non adapté à ce secteur.",
+      "moat": null
     },
     {
       "ticker": "NOW",
@@ -8201,7 +10045,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "SHW",
@@ -8214,7 +10062,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "SPG",
@@ -8227,7 +10079,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Modèle non adapté à ce secteur.",
+      "moat": null
     },
     {
       "ticker": "SKYD",
@@ -8240,7 +10096,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "SWKS",
@@ -8253,7 +10113,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "SJM",
@@ -8266,7 +10130,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "SW",
@@ -8279,7 +10147,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "SNA",
@@ -8292,7 +10164,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "SOLV",
@@ -8305,7 +10181,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "SO",
@@ -8318,7 +10198,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Modèle non adapté à ce secteur.",
+      "moat": null
     },
     {
       "ticker": "LUV",
@@ -8331,7 +10215,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "SWK",
@@ -8344,7 +10232,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "SBUX",
@@ -8357,7 +10249,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "STT",
@@ -8370,7 +10266,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Modèle non adapté à ce secteur.",
+      "moat": null
     },
     {
       "ticker": "STLD",
@@ -8383,7 +10283,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "STE",
@@ -8396,7 +10300,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "SYK",
@@ -8409,7 +10317,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "SMCI",
@@ -8422,7 +10334,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "SYF",
@@ -8435,7 +10351,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Modèle non adapté à ce secteur.",
+      "moat": null
     },
     {
       "ticker": "SNPS",
@@ -8448,7 +10368,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "SYY",
@@ -8461,7 +10385,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "TMUS",
@@ -8474,7 +10402,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "TROW",
@@ -8487,7 +10419,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Modèle non adapté à ce secteur.",
+      "moat": null
     },
     {
       "ticker": "TTWO",
@@ -8500,7 +10436,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "TPR",
@@ -8513,7 +10453,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "TRGP",
@@ -8526,7 +10470,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "TGT",
@@ -8539,7 +10487,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "TEL",
@@ -8552,7 +10504,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "TDY",
@@ -8565,7 +10521,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "TER",
@@ -8578,7 +10538,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "TSLA",
@@ -8591,7 +10555,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "TXN",
@@ -8604,7 +10572,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "TPL",
@@ -8617,7 +10589,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "TXT",
@@ -8630,7 +10606,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "TMO",
@@ -8643,7 +10623,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "TJX",
@@ -8656,7 +10640,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "TKO",
@@ -8669,7 +10657,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "TSCO",
@@ -8682,7 +10674,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "TT",
@@ -8695,7 +10691,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "TDG",
@@ -8708,7 +10708,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "TRV",
@@ -8721,7 +10725,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Modèle non adapté à ce secteur.",
+      "moat": null
     },
     {
       "ticker": "TRMB",
@@ -8734,7 +10742,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "TFC",
@@ -8747,7 +10759,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Modèle non adapté à ce secteur.",
+      "moat": null
     },
     {
       "ticker": "TWLO",
@@ -8760,7 +10776,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "TYL",
@@ -8773,7 +10793,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "TSN",
@@ -8786,7 +10810,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "USB",
@@ -8799,7 +10827,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Modèle non adapté à ce secteur.",
+      "moat": null
     },
     {
       "ticker": "UBER",
@@ -8812,7 +10844,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "UDR",
@@ -8825,7 +10861,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Modèle non adapté à ce secteur.",
+      "moat": null
     },
     {
       "ticker": "ULTA",
@@ -8838,7 +10878,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "UNP",
@@ -8851,7 +10895,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "UAL",
@@ -8864,7 +10912,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "UPS",
@@ -8877,7 +10929,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "URI",
@@ -8890,7 +10946,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "UNH",
@@ -8903,7 +10963,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "UHS",
@@ -8916,7 +10980,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "VLO",
@@ -8929,7 +10997,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "VEEV",
@@ -8942,7 +11014,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "VTR",
@@ -8955,7 +11031,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Modèle non adapté à ce secteur.",
+      "moat": null
     },
     {
       "ticker": "VLTO",
@@ -8968,7 +11048,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "VRSN",
@@ -8981,7 +11065,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "VRSK",
@@ -8994,7 +11082,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "VZ",
@@ -9007,7 +11099,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "VRTX",
@@ -9020,7 +11116,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "VRT",
@@ -9033,7 +11133,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "VTRS",
@@ -9046,7 +11150,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "VICI",
@@ -9059,7 +11167,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Modèle non adapté à ce secteur.",
+      "moat": null
     },
     {
       "ticker": "V",
@@ -9072,7 +11184,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Modèle non adapté à ce secteur.",
+      "moat": null
     },
     {
       "ticker": "VST",
@@ -9085,7 +11201,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Modèle non adapté à ce secteur.",
+      "moat": null
     },
     {
       "ticker": "VMRK",
@@ -9098,7 +11218,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Modèle non adapté à ce secteur.",
+      "moat": null
     },
     {
       "ticker": "VMC",
@@ -9111,7 +11235,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "VYLR",
@@ -9124,7 +11252,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "WRB",
@@ -9137,7 +11269,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Modèle non adapté à ce secteur.",
+      "moat": null
     },
     {
       "ticker": "GWW",
@@ -9150,7 +11286,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "WAB",
@@ -9163,7 +11303,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "WMT",
@@ -9176,7 +11320,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "DIS",
@@ -9189,7 +11337,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "WM",
@@ -9202,7 +11354,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "WAT",
@@ -9215,7 +11371,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "WEC",
@@ -9228,7 +11388,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Modèle non adapté à ce secteur.",
+      "moat": null
     },
     {
       "ticker": "WFC",
@@ -9241,7 +11405,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Modèle non adapté à ce secteur.",
+      "moat": null
     },
     {
       "ticker": "WELL",
@@ -9254,7 +11422,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Modèle non adapté à ce secteur.",
+      "moat": null
     },
     {
       "ticker": "WST",
@@ -9267,7 +11439,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "WDC",
@@ -9280,7 +11456,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "WY",
@@ -9293,7 +11473,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Modèle non adapté à ce secteur.",
+      "moat": null
     },
     {
       "ticker": "WSM",
@@ -9306,7 +11490,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "WMB",
@@ -9319,7 +11507,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "WTW",
@@ -9332,7 +11524,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Modèle non adapté à ce secteur.",
+      "moat": null
     },
     {
       "ticker": "WDAY",
@@ -9345,7 +11541,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "WYNN",
@@ -9358,7 +11558,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "XEL",
@@ -9371,7 +11575,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Modèle non adapté à ce secteur.",
+      "moat": null
     },
     {
       "ticker": "XYL",
@@ -9384,7 +11592,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "YUM",
@@ -9397,7 +11609,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "ZBRA",
@@ -9410,7 +11626,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "ZBH",
@@ -9423,7 +11643,11 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     },
     {
       "ticker": "ZTS",
@@ -9436,7 +11660,13 @@
       "coverage": 0,
       "reason": "Waiting for SEC filing collection",
       "source": "SEC EDGAR (pending)",
-      "asof": null
+      "asof": null,
+      "quality_financial": null,
+      "quality_details": null,
+      "quality_reason": "Métriques comptables manquantes.",
+      "moat": null
     }
-  ]
+  ],
+  "scoring_version": "quality-financial-v1",
+  "financial_scores_count": 12
 }
