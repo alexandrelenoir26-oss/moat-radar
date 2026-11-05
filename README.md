@@ -90,3 +90,24 @@ HF Data Library citation: Elkassabgi, A. (2026). *HF Data Library: Free 1-Minute
 
 ### Operational caveat (November 2026)
 HF's published API documents the signed URL as a **full absolute https:// URL**, not a relative path. The importer validates the exact provider domain and ticker path. Free keys expire every 30 days, so this integration is **not fully unattended indefinitely**. The source says *for academic research only* and prices cover IEX's single trading venue (~2–3% of consolidated volume). It is therefore used only for attributed research context, not for financial decision signals. Latest documentation states **1,253** tickers and split (not dividend) adjustments; the public availability endpoint remains the authority for exact current coverage.
+
+
+## SEC Form 13F — durable, key-free historical price diagnostics (experimental)
+
+Official government data: [SEC Form 13F data sets](https://www.sec.gov/data-research/sec-markets-data/form-13f-data-sets), quarterly ZIP downloads containing `SUBMISSION.tsv` and `INFOTABLE.tsv`. The accompanying [SEC 13F FAQ](https://www.sec.gov/rules-regulations/staff-guidance/frequently-asked-questions-about-form-13f) explains the holdings and reported market values.
+
+`scripts/sec13f.py` implements a strictly *offline* importer for those official TSVs. It requires a separately verified **CUSIP→ticker mapping**, a confirmed value denomination (`--value-unit dollars|thousands`) and an explicit quarter. Only common-share positions from three or more consistent institutional filings are considered. Options, principals, inconsistent implied prices, and unverified identities are rejected.
+
+Example after downloading the official quarterly SEC ZIP and separately verifying the mapping:
+
+```sh
+python scripts/sec13f.py --submission SUBMISSION.tsv --infotable INFOTABLE.tsv \
+  --cusip-map verified_cusips.csv --quarter 2026-06-30 --value-unit dollars \
+  --output data/13f_diagnostics.json
+```
+
+The unit shown is only an **example**: confirm the exact SEC archive schema before running. Do not create an unverified CUSIP mapping or assume the same units hold across vintages.
+
+**Important:** 13F reports are delayed, may contain errors and do not constitute a consolidated quote feed. The prototype is not wired to live daily collection or current valuation; it cannot compute a current PER or support GO / NO GO signals. This is deliberately separate from the reliable SEC XBRL collector and public ranking.
+
+To ship it unattended requires automated discovery/download of the official SEC archive, licensed CUSIP reconciliation, validation of value-unit changes across filing formats, corporate-action adjustments, historical quality checks and a publication audit. Until those steps are implemented and tested, no 13F-derived figures are presented as current prices.
