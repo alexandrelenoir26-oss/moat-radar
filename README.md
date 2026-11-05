@@ -8,7 +8,7 @@ Open-source experimental investment research dashboard, hosted on GitHub Pages.
 - Four statuses: opportunity verified / quality-price watch / risk or overpriced / insufficient data.
 - **Only 'insufficient data' is emitted by the current collector.** No financial score, moat, PER or buy signal is invented.
 - S&P 500 universe (roughly 500 companies/share classes), fetched from the Wikipedia components table with exact SEC CIKs; this is not an official or real-time index constituent feed.
-- Fundamental facts: SEC EDGAR companyfacts XBRL API. Incremental batches of 75 filings per daily run.
+- Fundamental facts: SEC EDGAR companyfacts XBRL API. Initial full backfill completed; daily SEC refresh rotates through issuers. Financial V2 indices are preliminary.
 - **Not a live trading system.** US financial statements only; no reliable free market-price feed or European coverage yet.
 
 ## Enable the daily free collector (one-time step)
@@ -19,7 +19,7 @@ Open-source experimental investment research dashboard, hosted on GitHub Pages.
 4. Run Actions → **Collect SEC fundamentals** → Run workflow, or wait for the daily UTC schedule.
 5. GitHub Pages: Settings → Pages → Source → **GitHub Actions**. The deployment workflow is in `.github/workflows/pages.yml`.
 
-The SEC requires an identified User-Agent and asks automated clients not to exceed ten requests per second. Collection uses a conservative ~2.5 req/s plus retry backoff, 75 companies each run. About seven successful daily runs are required for initial full coverage, assuming no blocking or changes. GitHub scheduled tasks can be delayed or skipped.
+The SEC requires an identified User-Agent and asks automated clients not to exceed ten requests per second. Collection rate-limits requests and refreshes issuers in rolling batches. GitHub schedules can be delayed. GitHub scheduled tasks can be delayed or skipped.
 
 ## Sources and licensing
 
@@ -43,3 +43,23 @@ Replace the placeholder with a valid email you control. Do not publish personal 
 ## Disclaimer
 
 Experimental informational software, not personalized investment advice. No warranty of accuracy, completeness, price timeliness, or investment return.
+
+## Annual valuation metrics (optional, guarded)
+
+The new `scripts/valuation.py` computes **annual P/E (PER)** and **annual FCF yield**, not a proprietary undervaluation rating. It requires **recent market capitalization** from a source that **explicitly allows redistribution on a public website**. There is **no price feed configured yet**, so the dashboard correctly displays dashes rather than fictitious ratios.
+
+Import format for an authorized source: `data/market_caps.csv` (optional; do not add it unless redistribution permission is confirmed):
+
+```csv
+ticker,market_cap_usd,asof,source,redistribution_allowed
+```
+
+Amounts are USD. `asof` is YYYY-MM-DD, must be <= 10 days old; `source` must name the licensed origin; `redistribution_allowed` must be `true`. CSV rows without explicit permission are skipped. Never commit a personal-only quote feed here.
+
+Formulae: `annual P/E = market cap / positive annual net income`, `annual FCF yield (%) = 100 * (annual operating cash flow - annual capex) / market cap`. Each annual cash-flow pair must have the same SEC financial year end. Older or incompatible statements are rejected. Neither metric is a valuation score, intrinsic-value estimate, or trading signal.
+
+**Zero-budget licensing constraint:** providers may offer free API *access* while forbidding public *display* or redistribution. Quote widgets may allow display with branding but do not automatically authorize extracting and storing quotes. We will not bypass these terms to fill thousands of scores.
+
+## Financial scoring V2
+
+The public interface uses exploratory financial-only indicators with partial coverage and sector-specific handling. These are **not validated moat scores**, and cross-sector rankings are not calibrated. Banks, insurers and listed real estate need dedicated models.
