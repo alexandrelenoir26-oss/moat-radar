@@ -1,5 +1,12 @@
 name: Collect SEC fundamentals
 on:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/collect.py'
+      - 'scripts/score.py'
+      - 'tests/**'
+      - '.github/workflows/collect.yml'
   schedule:
     - cron: '17 7 * * *'
   workflow_dispatch:
