@@ -63,3 +63,27 @@ Formulae: `annual P/E = market cap / positive annual net income`, `annual FCF yi
 ## Financial scoring V2
 
 The public interface uses exploratory financial-only indicators with partial coverage and sector-specific handling. These are **not validated moat scores**, and cross-sector rankings are not calibrated. Banks, insurers and listed real estate need dedicated models.
+
+## Zero-cost US price references: HF Data Library / IEX HIST
+
+A legitimate, **free and redistributable** reference price source has been identified:
+[HF Data Library](https://hfdatalibrary.com/pages/api), with [CC BY 4.0 terms](https://hfdatalibrary.com/pages/data) and required [IEX historical data attribution](https://www.iex.io/legal/hist-data-terms).
+
+- Covers a fixed universe of **1,391 tickers** (stocks + ETFs, some delisted), not all S&P 500 names or all listed US companies.
+- Since March 2022, observations come from **IEX only**, not the consolidated US market tape; may omit trades and differ from official closing quotes.
+- Prices in its processed files are **split/dividend adjusted**, so they are **not suitable as direct inputs to SEC-shares × price market capitalization or investment valuation**.
+- The service requires an individual **free API key that expires every 30 days**. Automatic collection is therefore conditional on keeping the key current. The key must remain a GitHub Actions *secret*, never a committed file.
+- This is a research reference price, not a trade execution quote or validated market cap.
+
+### One-time activation
+
+1. [Register for a free HF Data Library account](https://hfdatalibrary.com/pages/download); obtain your `X-API-Key` per the [API documentation](https://hfdatalibrary.com/pages/api).
+2. In [this repo's GitHub Actions secrets](https://github.com/alexandrelenoir26-oss/moat-radar/settings/secrets/actions), create a secret `HF_DATA_API_KEY` with the key value. **Never post the key in chat or publish it.**
+3. The existing *Collect SEC fundamentals* workflow will call `scripts/hf_prices.py` after the financial scoring; if the secret is absent it skips safely.
+4. The importer processes up to 60 available tickers per daily workflow. It imports only recent observations with trades, flags them as adjusted and IEX-only, and includes source/attribution and observation dates. The site displays them as **Référence IEX**, not as market cap, intrinsic value or verified closing price.
+
+IEX historical data legal attribution: **Data provided for free by IEX. By accessing or using IEX Historical Data, you agree to the [IEX Historical Data Terms of Use](https://www.iex.io/legal/hist-data-terms).**
+
+HF Data Library citation: Elkassabgi, A. (2026). *HF Data Library: Free 1-Minute Intraday U.S. Equity Data.* Zenodo, DOI: [10.5281/zenodo.19501605](https://doi.org/10.5281/zenodo.19501605).
+
+**Honest limitation:** This solves access to an attributed, free historic price reference, *not* the complete automated PER/valuation problem. For accurate current market cap and reliable cross-company valuation we still need a suitable unadjusted, company-matched, redistribution-permitted market price plus current share counts and corporate-action controls.
