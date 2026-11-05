@@ -24,7 +24,7 @@ jobs:
       - name: Collect SEC annual financial facts (rate-limited)
         env:
           SEC_CONTACT: ${{ vars.SEC_CONTACT }}
-          BATCH_SIZE: '75'
+          BATCH_SIZE: '503'
           SEC_REQUEST_PAUSE: '0.40'
         run: python scripts/collect.py
       - name: Verify financial scoring rules
