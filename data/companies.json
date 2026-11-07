@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-06T08:22:48.112035+00:00",
+  "updated_at": "2026-11-07T08:10:48.063169+00:00",
   "source_label": "SEC EDGAR + S&P 500 (Wikipedia)",
   "notice": "364 indices comptables exploratoires (214 complets, 150 partiels). Aucun moat ou prix de marché analysé. Ne pas interpréter comme recommandation.",
   "universe": "S&P 500",
@@ -6739,13 +6739,13 @@
       },
       "coverage": 6,
       "reason": "Cours de marché et évaluation qualitative du moat non disponibles ; aucun signal de valorisation autorisé.",
-      "checked_at": "2026-11-05",
+      "checked_at": "2026-11-07",
       "quality_financial": null,
       "quality_details": null,
       "quality_reason": "Secteur nécessitant un modèle spécialisé (banques, assurances ou immobilier coté).",
-      "moat": null,
       "quality_coverage": null,
       "quality_confidence": null,
+      "moat": null,
       "valuation_metrics": null,
       "valuation_reason": "Capitalisation boursière sous licence de redistribution indisponible."
     },
@@ -6801,7 +6801,7 @@
       },
       "coverage": 6,
       "reason": "Cours de marché et évaluation qualitative du moat non disponibles ; aucun signal de valorisation autorisé.",
-      "checked_at": "2026-11-05",
+      "checked_at": "2026-11-07",
       "quality_financial": 75,
       "quality_details": {
         "score": 75,
@@ -6855,9 +6855,9 @@
         "interpretation": "Indice comptable exploratoire, non comparable entre secteurs sans validation."
       },
       "quality_reason": null,
-      "moat": null,
       "quality_coverage": 1.0,
       "quality_confidence": "élevée",
+      "moat": null,
       "valuation_metrics": null,
       "valuation_reason": "Capitalisation boursière sous licence de redistribution indisponible."
     },
@@ -6908,7 +6908,7 @@
       },
       "coverage": 5,
       "reason": "Cours de marché et évaluation qualitative du moat non disponibles ; aucun signal de valorisation autorisé.",
-      "checked_at": "2026-11-05",
+      "checked_at": "2026-11-07",
       "quality_financial": 28,
       "quality_details": {
         "score": 28,
@@ -6957,9 +6957,9 @@
         "interpretation": "Indice comptable exploratoire, non comparable entre secteurs sans validation."
       },
       "quality_reason": null,
-      "moat": null,
       "quality_coverage": 0.75,
       "quality_confidence": "intermédiaire",
+      "moat": null,
       "valuation_metrics": null,
       "valuation_reason": "Capitalisation boursière sous licence de redistribution indisponible."
     },
@@ -7010,13 +7010,13 @@
       },
       "coverage": 5,
       "reason": "Cours de marché et évaluation qualitative du moat non disponibles ; aucun signal de valorisation autorisé.",
-      "checked_at": "2026-11-05",
+      "checked_at": "2026-11-07",
       "quality_financial": null,
       "quality_details": null,
       "quality_reason": "Secteur nécessitant un modèle spécialisé (banques, assurances ou immobilier coté).",
-      "moat": null,
       "quality_coverage": null,
       "quality_confidence": null,
+      "moat": null,
       "valuation_metrics": null,
       "valuation_reason": "Capitalisation boursière sous licence de redistribution indisponible."
     },
@@ -7072,7 +7072,7 @@
       },
       "coverage": 6,
       "reason": "Cours de marché et évaluation qualitative du moat non disponibles ; aucun signal de valorisation autorisé.",
-      "checked_at": "2026-11-05",
+      "checked_at": "2026-11-07",
       "quality_financial": 38,
       "quality_details": {
         "score": 38,
@@ -7126,9 +7126,9 @@
         "interpretation": "Indice comptable exploratoire, non comparable entre secteurs sans validation."
       },
       "quality_reason": null,
-      "moat": null,
       "quality_coverage": 1.0,
       "quality_confidence": "élevée",
+      "moat": null,
       "valuation_metrics": null,
       "valuation_reason": "Capitalisation boursière sous licence de redistribution indisponible."
     },
@@ -7179,7 +7179,7 @@
       },
       "coverage": 5,
       "reason": "Cours de marché et évaluation qualitative du moat non disponibles ; aucun signal de valorisation autorisé.",
-      "checked_at": "2026-11-05",
+      "checked_at": "2026-11-07",
       "quality_financial": 81,
       "quality_details": {
         "score": 81,
@@ -7228,9 +7228,9 @@
         "interpretation": "Indice comptable exploratoire, non comparable entre secteurs sans validation."
       },
       "quality_reason": null,
-      "moat": null,
       "quality_coverage": 0.75,
       "quality_confidence": "intermédiaire",
+      "moat": null,
       "valuation_metrics": null,
       "valuation_reason": "Capitalisation boursière sous licence de redistribution indisponible."
     },
@@ -7244,8 +7244,8 @@
       "valuation": null,
       "source": "SEC EDGAR / XBRL",
       "source_url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000906345.json",
-      "asof": "2026-06-30",
-      "last_filing": "2026-07-31",
+      "asof": "2026-09-30",
+      "last_filing": "2026-11-06",
       "fundamentals": {
         "revenue": {
           "value": 12967000,
@@ -7260,15 +7260,15 @@
           "tag": "NetIncomeLoss"
         },
         "assets": {
-          "value": 9456080000,
-          "period_end": "2026-06-30",
-          "filed": "2026-07-31",
+          "value": 9564129000,
+          "period_end": "2026-09-30",
+          "filed": "2026-11-06",
           "tag": "Assets"
         },
         "liabilities": {
-          "value": 5577765000,
-          "period_end": "2026-06-30",
-          "filed": "2026-07-31",
+          "value": 4935780000,
+          "period_end": "2026-09-30",
+          "filed": "2026-11-06",
           "tag": "Liabilities"
         },
         "operating_cash": {
@@ -7281,13 +7281,13 @@
       },
       "coverage": 5,
       "reason": "Cours de marché et évaluation qualitative du moat non disponibles ; aucun signal de valorisation autorisé.",
-      "checked_at": "2026-11-05",
+      "checked_at": "2026-11-07",
       "quality_financial": null,
       "quality_details": null,
       "quality_reason": "Secteur nécessitant un modèle spécialisé (banques, assurances ou immobilier coté).",
-      "moat": null,
       "quality_coverage": null,
       "quality_confidence": null,
+      "moat": null,
       "valuation_metrics": null,
       "valuation_reason": "Capitalisation boursière sous licence de redistribution indisponible."
     },
@@ -7343,13 +7343,13 @@
       },
       "coverage": 6,
       "reason": "Cours de marché et évaluation qualitative du moat non disponibles ; aucun signal de valorisation autorisé.",
-      "checked_at": "2026-11-05",
+      "checked_at": "2026-11-07",
       "quality_financial": null,
       "quality_details": null,
       "quality_reason": "Secteur nécessitant un modèle spécialisé (banques, assurances ou immobilier coté).",
-      "moat": null,
       "quality_coverage": null,
       "quality_confidence": null,
+      "moat": null,
       "valuation_metrics": null,
       "valuation_reason": "Capitalisation boursière sous licence de redistribution indisponible."
     },
@@ -7400,7 +7400,7 @@
       },
       "coverage": 5,
       "reason": "Cours de marché et évaluation qualitative du moat non disponibles ; aucun signal de valorisation autorisé.",
-      "checked_at": "2026-11-05",
+      "checked_at": "2026-11-07",
       "quality_financial": 22,
       "quality_details": {
         "score": 22,
@@ -7449,9 +7449,9 @@
         "interpretation": "Indice comptable exploratoire, non comparable entre secteurs sans validation."
       },
       "quality_reason": null,
-      "moat": null,
       "quality_coverage": 0.75,
       "quality_confidence": "intermédiaire",
+      "moat": null,
       "valuation_metrics": null,
       "valuation_reason": "Capitalisation boursière sous licence de redistribution indisponible."
     },
@@ -7502,7 +7502,7 @@
       },
       "coverage": 5,
       "reason": "Cours de marché et évaluation qualitative du moat non disponibles ; aucun signal de valorisation autorisé.",
-      "checked_at": "2026-11-05",
+      "checked_at": "2026-11-07",
       "quality_financial": 57,
       "quality_details": {
         "score": 57,
@@ -7551,9 +7551,9 @@
         "interpretation": "Indice comptable exploratoire, non comparable entre secteurs sans validation."
       },
       "quality_reason": null,
-      "moat": null,
       "quality_coverage": 0.75,
       "quality_confidence": "intermédiaire",
+      "moat": null,
       "valuation_metrics": null,
       "valuation_reason": "Capitalisation boursière sous licence de redistribution indisponible."
     },
@@ -7604,7 +7604,7 @@
       },
       "coverage": 5,
       "reason": "Cours de marché et évaluation qualitative du moat non disponibles ; aucun signal de valorisation autorisé.",
-      "checked_at": "2026-11-05",
+      "checked_at": "2026-11-07",
       "quality_financial": 41,
       "quality_details": {
         "score": 41,
@@ -7654,9 +7654,9 @@
         "interpretation": "Indice comptable exploratoire, non comparable entre secteurs sans validation."
       },
       "quality_reason": null,
-      "moat": null,
       "quality_coverage": 1.0,
       "quality_confidence": "élevée",
+      "moat": null,
       "valuation_metrics": null,
       "valuation_reason": "Capitalisation boursière sous licence de redistribution indisponible."
     },
@@ -7712,7 +7712,7 @@
       },
       "coverage": 6,
       "reason": "Cours de marché et évaluation qualitative du moat non disponibles ; aucun signal de valorisation autorisé.",
-      "checked_at": "2026-11-05",
+      "checked_at": "2026-11-07",
       "quality_financial": 45,
       "quality_details": {
         "score": 45,
@@ -7766,9 +7766,9 @@
         "interpretation": "Indice comptable exploratoire, non comparable entre secteurs sans validation."
       },
       "quality_reason": null,
-      "moat": null,
       "quality_coverage": 1.0,
       "quality_confidence": "élevée",
+      "moat": null,
       "valuation_metrics": null,
       "valuation_reason": "Capitalisation boursière sous licence de redistribution indisponible."
     },
@@ -7824,7 +7824,7 @@
       },
       "coverage": 6,
       "reason": "Cours de marché et évaluation qualitative du moat non disponibles ; aucun signal de valorisation autorisé.",
-      "checked_at": "2026-11-05",
+      "checked_at": "2026-11-07",
       "quality_financial": 46,
       "quality_details": {
         "score": 46,
@@ -7878,9 +7878,9 @@
         "interpretation": "Indice comptable exploratoire, non comparable entre secteurs sans validation."
       },
       "quality_reason": null,
-      "moat": null,
       "quality_coverage": 1.0,
       "quality_confidence": "élevée",
+      "moat": null,
       "valuation_metrics": null,
       "valuation_reason": "Capitalisation boursière sous licence de redistribution indisponible."
     },
@@ -7936,7 +7936,7 @@
       },
       "coverage": 6,
       "reason": "Cours de marché et évaluation qualitative du moat non disponibles ; aucun signal de valorisation autorisé.",
-      "checked_at": "2026-11-05",
+      "checked_at": "2026-11-07",
       "quality_financial": 45,
       "quality_details": {
         "score": 45,
@@ -7974,9 +7974,9 @@
         "interpretation": "Indice comptable exploratoire, non comparable entre secteurs sans validation."
       },
       "quality_reason": null,
-      "moat": null,
       "quality_coverage": 0.5,
       "quality_confidence": "faible",
+      "moat": null,
       "valuation_metrics": null,
       "valuation_reason": "Capitalisation boursière sous licence de redistribution indisponible."
     },
@@ -8032,13 +8032,13 @@
       },
       "coverage": 6,
       "reason": "Cours de marché et évaluation qualitative du moat non disponibles ; aucun signal de valorisation autorisé.",
-      "checked_at": "2026-11-05",
+      "checked_at": "2026-11-07",
       "quality_financial": null,
       "quality_details": null,
       "quality_reason": "Secteur nécessitant un modèle spécialisé (banques, assurances ou immobilier coté).",
-      "moat": null,
       "quality_coverage": null,
       "quality_confidence": null,
+      "moat": null,
       "valuation_metrics": null,
       "valuation_reason": "Capitalisation boursière sous licence de redistribution indisponible."
     },
@@ -8094,13 +8094,13 @@
       },
       "coverage": 6,
       "reason": "Cours de marché et évaluation qualitative du moat non disponibles ; aucun signal de valorisation autorisé.",
-      "checked_at": "2026-11-05",
+      "checked_at": "2026-11-07",
       "quality_financial": null,
       "quality_details": null,
       "quality_reason": "Secteur nécessitant un modèle spécialisé (banques, assurances ou immobilier coté).",
-      "moat": null,
       "quality_coverage": null,
       "quality_confidence": null,
+      "moat": null,
       "valuation_metrics": null,
       "valuation_reason": "Capitalisation boursière sous licence de redistribution indisponible."
     },
@@ -8156,7 +8156,7 @@
       },
       "coverage": 6,
       "reason": "Cours de marché et évaluation qualitative du moat non disponibles ; aucun signal de valorisation autorisé.",
-      "checked_at": "2026-11-05",
+      "checked_at": "2026-11-07",
       "quality_financial": 34,
       "quality_details": {
         "score": 34,
@@ -8205,9 +8205,9 @@
         "interpretation": "Indice comptable exploratoire, non comparable entre secteurs sans validation."
       },
       "quality_reason": null,
-      "moat": null,
       "quality_coverage": 0.75,
       "quality_confidence": "intermédiaire",
+      "moat": null,
       "valuation_metrics": null,
       "valuation_reason": "Capitalisation boursière sous licence de redistribution indisponible."
     },
@@ -8258,7 +8258,7 @@
       },
       "coverage": 5,
       "reason": "Cours de marché et évaluation qualitative du moat non disponibles ; aucun signal de valorisation autorisé.",
-      "checked_at": "2026-11-05",
+      "checked_at": "2026-11-07",
       "quality_financial": 20,
       "quality_details": {
         "score": 20,
@@ -8307,9 +8307,9 @@
         "interpretation": "Indice comptable exploratoire, non comparable entre secteurs sans validation."
       },
       "quality_reason": null,
-      "moat": null,
       "quality_coverage": 0.75,
       "quality_confidence": "intermédiaire",
+      "moat": null,
       "valuation_metrics": null,
       "valuation_reason": "Capitalisation boursière sous licence de redistribution indisponible."
     },
@@ -8365,7 +8365,7 @@
       },
       "coverage": 6,
       "reason": "Cours de marché et évaluation qualitative du moat non disponibles ; aucun signal de valorisation autorisé.",
-      "checked_at": "2026-11-05",
+      "checked_at": "2026-11-07",
       "quality_financial": 16,
       "quality_details": {
         "score": 16,
@@ -8415,9 +8415,9 @@
         "interpretation": "Indice comptable exploratoire, non comparable entre secteurs sans validation."
       },
       "quality_reason": null,
-      "moat": null,
       "quality_coverage": 1.0,
       "quality_confidence": "élevée",
+      "moat": null,
       "valuation_metrics": null,
       "valuation_reason": "Capitalisation boursière sous licence de redistribution indisponible."
     },
@@ -8468,7 +8468,7 @@
       },
       "coverage": 5,
       "reason": "Cours de marché et évaluation qualitative du moat non disponibles ; aucun signal de valorisation autorisé.",
-      "checked_at": "2026-11-05",
+      "checked_at": "2026-11-07",
       "quality_financial": 61,
       "quality_details": {
         "score": 61,
@@ -8518,9 +8518,9 @@
         "interpretation": "Indice comptable exploratoire, non comparable entre secteurs sans validation."
       },
       "quality_reason": null,
-      "moat": null,
       "quality_coverage": 0.75,
       "quality_confidence": "intermédiaire",
+      "moat": null,
       "valuation_metrics": null,
       "valuation_reason": "Capitalisation boursière sous licence de redistribution indisponible."
     },
@@ -8571,13 +8571,13 @@
       },
       "coverage": 5,
       "reason": "Cours de marché et évaluation qualitative du moat non disponibles ; aucun signal de valorisation autorisé.",
-      "checked_at": "2026-11-05",
+      "checked_at": "2026-11-07",
       "quality_financial": null,
       "quality_details": null,
       "quality_reason": "Moins de deux indicateurs fondamentaux indépendants disponibles et comparables.",
-      "moat": null,
       "quality_coverage": null,
       "quality_confidence": null,
+      "moat": null,
       "valuation_metrics": null,
       "valuation_reason": "Capitalisation boursière sous licence de redistribution indisponible."
     },
@@ -8628,7 +8628,7 @@
       },
       "coverage": 5,
       "reason": "Cours de marché et évaluation qualitative du moat non disponibles ; aucun signal de valorisation autorisé.",
-      "checked_at": "2026-11-05",
+      "checked_at": "2026-11-07",
       "quality_financial": 35,
       "quality_details": {
         "score": 35,
@@ -8674,9 +8674,9 @@
         "interpretation": "Indice comptable exploratoire, non comparable entre secteurs sans validation."
       },
       "quality_reason": null,
-      "moat": null,
       "quality_coverage": 1.0,
       "quality_confidence": "élevée",
+      "moat": null,
       "valuation_metrics": null,
       "valuation_reason": "Capitalisation boursière sous licence de redistribution indisponible."
     },
@@ -8690,8 +8690,8 @@
       "valuation": null,
       "source": "SEC EDGAR / XBRL",
       "source_url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000316709.json",
-      "asof": "2026-06-30",
-      "last_filing": "2026-08-07",
+      "asof": "2026-09-30",
+      "last_filing": "2026-11-06",
       "fundamentals": {
         "revenue": {
           "value": 23921000000,
@@ -8706,15 +8706,15 @@
           "tag": "NetIncomeLoss"
         },
         "assets": {
-          "value": 517266000000,
-          "period_end": "2026-06-30",
-          "filed": "2026-08-07",
+          "value": 520674000000,
+          "period_end": "2026-09-30",
+          "filed": "2026-11-06",
           "tag": "Assets"
         },
         "liabilities": {
-          "value": 467119000000,
-          "period_end": "2026-06-30",
-          "filed": "2026-08-07",
+          "value": 469228000000,
+          "period_end": "2026-09-30",
+          "filed": "2026-11-06",
           "tag": "Liabilities"
         },
         "operating_cash": {
@@ -8732,13 +8732,13 @@
       },
       "coverage": 6,
       "reason": "Cours de marché et évaluation qualitative du moat non disponibles ; aucun signal de valorisation autorisé.",
-      "checked_at": "2026-11-05",
+      "checked_at": "2026-11-07",
       "quality_financial": null,
       "quality_details": null,
       "quality_reason": "Secteur nécessitant un modèle spécialisé (banques, assurances ou immobilier coté).",
-      "moat": null,
       "quality_coverage": null,
       "quality_confidence": null,
+      "moat": null,
       "valuation_metrics": null,
       "valuation_reason": "Capitalisation boursière sous licence de redistribution indisponible."
     },
@@ -8752,8 +8752,8 @@
       "valuation": null,
       "source": "SEC EDGAR / XBRL",
       "source_url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001091667.json",
-      "asof": "2026-06-30",
-      "last_filing": "2026-07-24",
+      "asof": "2026-09-30",
+      "last_filing": "2026-11-06",
       "fundamentals": {
         "revenue": {
           "value": 54774000000,
@@ -8768,9 +8768,9 @@
           "tag": "NetIncomeLoss"
         },
         "assets": {
-          "value": 155618000000,
-          "period_end": "2026-06-30",
-          "filed": "2026-07-24",
+          "value": 178465000000,
+          "period_end": "2026-09-30",
+          "filed": "2026-11-06",
           "tag": "Assets"
         },
         "liabilities": null,
@@ -8789,7 +8789,7 @@
       },
       "coverage": 5,
       "reason": "Cours de marché et évaluation qualitative du moat non disponibles ; aucun signal de valorisation autorisé.",
-      "checked_at": "2026-11-05",
+      "checked_at": "2026-11-07",
       "quality_financial": 58,
       "quality_details": {
         "score": 58,
@@ -8801,12 +8801,12 @@
           "operating_cash_margin": 0.293515,
           "fcf_margin": 0.080659,
           "cash_conversion": 3.223782,
-          "return_on_assets": 0.032046
+          "return_on_assets": 0.027944
         },
         "components": {
           "net_margin": 47.0,
           "operating_cash_margin": 98.1,
-          "return_on_assets": 29.5
+          "return_on_assets": 27.6
         },
         "metric_dates": {
           "net_margin": [
@@ -8823,7 +8823,7 @@
           ],
           "return_on_assets": [
             "2025-12-31",
-            "2026-06-30"
+            "2026-09-30"
           ]
         },
         "pillars": [
@@ -8838,9 +8838,9 @@
         "interpretation": "Indice comptable exploratoire, non comparable entre secteurs sans validation."
       },
       "quality_reason": null,
-      "moat": null,
       "quality_coverage": 0.75,
       "quality_confidence": "intermédiaire",
+      "moat": null,
       "valuation_metrics": null,
       "valuation_reason": "Capitalisation boursière sous licence de redistribution indisponible."
     },
@@ -8891,7 +8891,7 @@
       },
       "coverage": 5,
       "reason": "Cours de marché et évaluation qualitative du moat non disponibles ; aucun signal de valorisation autorisé.",
-      "checked_at": "2026-11-05",
+      "checked_at": "2026-11-07",
       "quality_financial": 57,
       "quality_details": {
         "score": 57,
@@ -8941,9 +8941,9 @@
         "interpretation": "Indice comptable exploratoire, non comparable entre secteurs sans validation."
       },
       "quality_reason": null,
-      "moat": null,
       "quality_coverage": 1.0,
       "quality_confidence": "élevée",
+      "moat": null,
       "valuation_metrics": null,
       "valuation_reason": "Capitalisation boursière sous licence de redistribution indisponible."
     },
@@ -8999,7 +8999,7 @@
       },
       "coverage": 6,
       "reason": "Cours de marché et évaluation qualitative du moat non disponibles ; aucun signal de valorisation autorisé.",
-      "checked_at": "2026-11-05",
+      "checked_at": "2026-11-07",
       "quality_financial": 63,
       "quality_details": {
         "score": 63,
@@ -9053,9 +9053,9 @@
         "interpretation": "Indice comptable exploratoire, non comparable entre secteurs sans validation."
       },
       "quality_reason": null,
-      "moat": null,
       "quality_coverage": 1.0,
       "quality_confidence": "élevée",
+      "moat": null,
       "valuation_metrics": null,
       "valuation_reason": "Capitalisation boursière sous licence de redistribution indisponible."
     },
@@ -9106,13 +9106,13 @@
       },
       "coverage": 5,
       "reason": "Cours de marché et évaluation qualitative du moat non disponibles ; aucun signal de valorisation autorisé.",
-      "checked_at": "2026-11-05",
+      "checked_at": "2026-11-07",
       "quality_financial": null,
       "quality_details": null,
       "quality_reason": "Secteur nécessitant un modèle spécialisé (banques, assurances ou immobilier coté).",
-      "moat": null,
       "quality_coverage": null,
       "quality_confidence": null,
+      "moat": null,
       "valuation_metrics": null,
       "valuation_reason": "Capitalisation boursière sous licence de redistribution indisponible."
     },
@@ -9168,7 +9168,7 @@
       },
       "coverage": 6,
       "reason": "Cours de marché et évaluation qualitative du moat non disponibles ; aucun signal de valorisation autorisé.",
-      "checked_at": "2026-11-05",
+      "checked_at": "2026-11-07",
       "quality_financial": 63,
       "quality_details": {
         "score": 63,
@@ -9222,9 +9222,9 @@
         "interpretation": "Indice comptable exploratoire, non comparable entre secteurs sans validation."
       },
       "quality_reason": null,
-      "moat": null,
       "quality_coverage": 1.0,
       "quality_confidence": "élevée",
+      "moat": null,
       "valuation_metrics": null,
       "valuation_reason": "Capitalisation boursière sous licence de redistribution indisponible."
     },
@@ -9280,7 +9280,7 @@
       },
       "coverage": 6,
       "reason": "Cours de marché et évaluation qualitative du moat non disponibles ; aucun signal de valorisation autorisé.",
-      "checked_at": "2026-11-05",
+      "checked_at": "2026-11-07",
       "quality_financial": 41,
       "quality_details": {
         "score": 41,
@@ -9334,9 +9334,9 @@
         "interpretation": "Indice comptable exploratoire, non comparable entre secteurs sans validation."
       },
       "quality_reason": null,
-      "moat": null,
       "quality_coverage": 1.0,
       "quality_confidence": "élevée",
+      "moat": null,
       "valuation_metrics": null,
       "valuation_reason": "Capitalisation boursière sous licence de redistribution indisponible."
     },
@@ -9392,7 +9392,7 @@
       },
       "coverage": 6,
       "reason": "Cours de marché et évaluation qualitative du moat non disponibles ; aucun signal de valorisation autorisé.",
-      "checked_at": "2026-11-05",
+      "checked_at": "2026-11-07",
       "quality_financial": 30,
       "quality_details": {
         "score": 30,
@@ -9442,9 +9442,9 @@
         "interpretation": "Indice comptable exploratoire, non comparable entre secteurs sans validation."
       },
       "quality_reason": null,
-      "moat": null,
       "quality_coverage": 1.0,
       "quality_confidence": "élevée",
+      "moat": null,
       "valuation_metrics": null,
       "valuation_reason": "Capitalisation boursière sous licence de redistribution indisponible."
     },
@@ -9500,13 +9500,13 @@
       },
       "coverage": 6,
       "reason": "Cours de marché et évaluation qualitative du moat non disponibles ; aucun signal de valorisation autorisé.",
-      "checked_at": "2026-11-05",
+      "checked_at": "2026-11-07",
       "quality_financial": null,
       "quality_details": null,
       "quality_reason": "Secteur nécessitant un modèle spécialisé (banques, assurances ou immobilier coté).",
-      "moat": null,
       "quality_coverage": null,
       "quality_confidence": null,
+      "moat": null,
       "valuation_metrics": null,
       "valuation_reason": "Capitalisation boursière sous licence de redistribution indisponible."
     },
@@ -9557,7 +9557,7 @@
       },
       "coverage": 5,
       "reason": "Cours de marché et évaluation qualitative du moat non disponibles ; aucun signal de valorisation autorisé.",
-      "checked_at": "2026-11-05",
+      "checked_at": "2026-11-07",
       "quality_financial": 83,
       "quality_details": {
         "score": 83,
@@ -9606,9 +9606,9 @@
         "interpretation": "Indice comptable exploratoire, non comparable entre secteurs sans validation."
       },
       "quality_reason": null,
-      "moat": null,
       "quality_coverage": 0.75,
       "quality_confidence": "intermédiaire",
+      "moat": null,
       "valuation_metrics": null,
       "valuation_reason": "Capitalisation boursière sous licence de redistribution indisponible."
     },
@@ -9664,7 +9664,7 @@
       },
       "coverage": 6,
       "reason": "Cours de marché et évaluation qualitative du moat non disponibles ; aucun signal de valorisation autorisé.",
-      "checked_at": "2026-11-05",
+      "checked_at": "2026-11-07",
       "quality_financial": 71,
       "quality_details": {
         "score": 71,
@@ -9717,9 +9717,9 @@
         "interpretation": "Indice comptable exploratoire, non comparable entre secteurs sans validation."
       },
       "quality_reason": null,
-      "moat": null,
       "quality_coverage": 1.0,
       "quality_confidence": "élevée",
+      "moat": null,
       "valuation_metrics": null,
       "valuation_reason": "Capitalisation boursière sous licence de redistribution indisponible."
     },
@@ -9775,13 +9775,13 @@
       },
       "coverage": 6,
       "reason": "Cours de marché et évaluation qualitative du moat non disponibles ; aucun signal de valorisation autorisé.",
-      "checked_at": "2026-11-05",
+      "checked_at": "2026-11-07",
       "quality_financial": null,
       "quality_details": null,
       "quality_reason": "Secteur nécessitant un modèle spécialisé (banques, assurances ou immobilier coté).",
-      "moat": null,
       "quality_coverage": null,
       "quality_confidence": null,
+      "moat": null,
       "valuation_metrics": null,
       "valuation_reason": "Capitalisation boursière sous licence de redistribution indisponible."
     },
@@ -9837,13 +9837,13 @@
       },
       "coverage": 6,
       "reason": "Cours de marché et évaluation qualitative du moat non disponibles ; aucun signal de valorisation autorisé.",
-      "checked_at": "2026-11-05",
+      "checked_at": "2026-11-07",
       "quality_financial": null,
       "quality_details": null,
       "quality_reason": "Secteur nécessitant un modèle spécialisé (banques, assurances ou immobilier coté).",
-      "moat": null,
       "quality_coverage": null,
       "quality_confidence": null,
+      "moat": null,
       "valuation_metrics": null,
       "valuation_reason": "Capitalisation boursière sous licence de redistribution indisponible."
     },
@@ -9899,7 +9899,7 @@
       },
       "coverage": 6,
       "reason": "Cours de marché et évaluation qualitative du moat non disponibles ; aucun signal de valorisation autorisé.",
-      "checked_at": "2026-11-05",
+      "checked_at": "2026-11-07",
       "quality_financial": 43,
       "quality_details": {
         "score": 43,
@@ -9953,9 +9953,9 @@
         "interpretation": "Indice comptable exploratoire, non comparable entre secteurs sans validation."
       },
       "quality_reason": null,
-      "moat": null,
       "quality_coverage": 1.0,
       "quality_confidence": "élevée",
+      "moat": null,
       "valuation_metrics": null,
       "valuation_reason": "Capitalisation boursière sous licence de redistribution indisponible."
     },
@@ -10011,13 +10011,13 @@
       },
       "coverage": 6,
       "reason": "Cours de marché et évaluation qualitative du moat non disponibles ; aucun signal de valorisation autorisé.",
-      "checked_at": "2026-11-05",
+      "checked_at": "2026-11-07",
       "quality_financial": null,
       "quality_details": null,
       "quality_reason": "Secteur nécessitant un modèle spécialisé (banques, assurances ou immobilier coté).",
-      "moat": null,
       "quality_coverage": null,
       "quality_confidence": null,
+      "moat": null,
       "valuation_metrics": null,
       "valuation_reason": "Capitalisation boursière sous licence de redistribution indisponible."
     },
@@ -10068,7 +10068,7 @@
       },
       "coverage": 5,
       "reason": "Cours de marché et évaluation qualitative du moat non disponibles ; aucun signal de valorisation autorisé.",
-      "checked_at": "2026-11-05",
+      "checked_at": "2026-11-07",
       "quality_financial": 65,
       "quality_details": {
         "score": 65,
@@ -10114,9 +10114,9 @@
         "interpretation": "Indice comptable exploratoire, non comparable entre secteurs sans validation."
       },
       "quality_reason": null,
-      "moat": null,
       "quality_coverage": 0.75,
       "quality_confidence": "intermédiaire",
+      "moat": null,
       "valuation_metrics": null,
       "valuation_reason": "Capitalisation boursière sous licence de redistribution indisponible."
     },
@@ -10167,7 +10167,7 @@
       },
       "coverage": 5,
       "reason": "Cours de marché et évaluation qualitative du moat non disponibles ; aucun signal de valorisation autorisé.",
-      "checked_at": "2026-11-05",
+      "checked_at": "2026-11-07",
       "quality_financial": 77,
       "quality_details": {
         "score": 77,
@@ -10216,9 +10216,9 @@
         "interpretation": "Indice comptable exploratoire, non comparable entre secteurs sans validation."
       },
       "quality_reason": null,
-      "moat": null,
       "quality_coverage": 0.75,
       "quality_confidence": "intermédiaire",
+      "moat": null,
       "valuation_metrics": null,
       "valuation_reason": "Capitalisation boursière sous licence de redistribution indisponible."
     },
@@ -10274,7 +10274,7 @@
       },
       "coverage": 6,
       "reason": "Cours de marché et évaluation qualitative du moat non disponibles ; aucun signal de valorisation autorisé.",
-      "checked_at": "2026-11-05",
+      "checked_at": "2026-11-07",
       "quality_financial": 67,
       "quality_details": {
         "score": 67,
@@ -10328,9 +10328,9 @@
         "interpretation": "Indice comptable exploratoire, non comparable entre secteurs sans validation."
       },
       "quality_reason": null,
-      "moat": null,
       "quality_coverage": 1.0,
       "quality_confidence": "élevée",
+      "moat": null,
       "valuation_metrics": null,
       "valuation_reason": "Capitalisation boursière sous licence de redistribution indisponible."
     },
@@ -10386,7 +10386,7 @@
       },
       "coverage": 6,
       "reason": "Cours de marché et évaluation qualitative du moat non disponibles ; aucun signal de valorisation autorisé.",
-      "checked_at": "2026-11-05",
+      "checked_at": "2026-11-07",
       "quality_financial": 48,
       "quality_details": {
         "score": 48,
@@ -10440,9 +10440,9 @@
         "interpretation": "Indice comptable exploratoire, non comparable entre secteurs sans validation."
       },
       "quality_reason": null,
-      "moat": null,
       "quality_coverage": 1.0,
       "quality_confidence": "élevée",
+      "moat": null,
       "valuation_metrics": null,
       "valuation_reason": "Capitalisation boursière sous licence de redistribution indisponible."
     },
@@ -10498,13 +10498,13 @@
       },
       "coverage": 6,
       "reason": "Cours de marché et évaluation qualitative du moat non disponibles ; aucun signal de valorisation autorisé.",
-      "checked_at": "2026-11-05",
+      "checked_at": "2026-11-07",
       "quality_financial": null,
       "quality_details": null,
       "quality_reason": "Secteur nécessitant un modèle spécialisé (banques, assurances ou immobilier coté).",
-      "moat": null,
       "quality_coverage": null,
       "quality_confidence": null,
+      "moat": null,
       "valuation_metrics": null,
       "valuation_reason": "Capitalisation boursière sous licence de redistribution indisponible."
     },
@@ -10560,7 +10560,7 @@
       },
       "coverage": 6,
       "reason": "Cours de marché et évaluation qualitative du moat non disponibles ; aucun signal de valorisation autorisé.",
-      "checked_at": "2026-11-05",
+      "checked_at": "2026-11-07",
       "quality_financial": 50,
       "quality_details": {
         "score": 50,
@@ -10610,9 +10610,9 @@
         "interpretation": "Indice comptable exploratoire, non comparable entre secteurs sans validation."
       },
       "quality_reason": null,
-      "moat": null,
       "quality_coverage": 1.0,
       "quality_confidence": "élevée",
+      "moat": null,
       "valuation_metrics": null,
       "valuation_reason": "Capitalisation boursière sous licence de redistribution indisponible."
     },
@@ -10663,7 +10663,7 @@
       },
       "coverage": 5,
       "reason": "Cours de marché et évaluation qualitative du moat non disponibles ; aucun signal de valorisation autorisé.",
-      "checked_at": "2026-11-05",
+      "checked_at": "2026-11-07",
       "quality_financial": 71,
       "quality_details": {
         "score": 71,
@@ -10712,9 +10712,9 @@
         "interpretation": "Indice comptable exploratoire, non comparable entre secteurs sans validation."
       },
       "quality_reason": null,
-      "moat": null,
       "quality_coverage": 0.75,
       "quality_confidence": "intermédiaire",
+      "moat": null,
       "valuation_metrics": null,
       "valuation_reason": "Capitalisation boursière sous licence de redistribution indisponible."
     },
@@ -10770,7 +10770,7 @@
       },
       "coverage": 6,
       "reason": "Cours de marché et évaluation qualitative du moat non disponibles ; aucun signal de valorisation autorisé.",
-      "checked_at": "2026-11-05",
+      "checked_at": "2026-11-07",
       "quality_financial": 56,
       "quality_details": {
         "score": 56,
@@ -10805,9 +10805,9 @@
         "interpretation": "Indice comptable exploratoire, non comparable entre secteurs sans validation."
       },
       "quality_reason": null,
-      "moat": null,
       "quality_coverage": 0.5,
       "quality_confidence": "faible",
+      "moat": null,
       "valuation_metrics": null,
       "valuation_reason": "Capitalisation boursière sous licence de redistribution indisponible."
     },
@@ -10858,7 +10858,7 @@
       },
       "coverage": 5,
       "reason": "Cours de marché et évaluation qualitative du moat non disponibles ; aucun signal de valorisation autorisé.",
-      "checked_at": "2026-11-05",
+      "checked_at": "2026-11-07",
       "quality_financial": 73,
       "quality_details": {
         "score": 73,
@@ -10908,9 +10908,9 @@
         "interpretation": "Indice comptable exploratoire, non comparable entre secteurs sans validation."
       },
       "quality_reason": null,
-      "moat": null,
       "quality_coverage": 1.0,
       "quality_confidence": "élevée",
+      "moat": null,
       "valuation_metrics": null,
       "valuation_reason": "Capitalisation boursière sous licence de redistribution indisponible."
     },
@@ -10924,8 +10924,8 @@
       "valuation": null,
       "source": "SEC EDGAR / XBRL",
       "source_url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001047862.json",
-      "asof": "2026-03-31",
-      "last_filing": "2026-05-07",
+      "asof": "2026-09-30",
+      "last_filing": "2026-11-05",
       "fundamentals": {
         "revenue": {
           "value": 17049000000,
@@ -10940,9 +10940,9 @@
           "tag": "NetIncomeLoss"
         },
         "assets": {
-          "value": 74741000000,
-          "period_end": "2026-03-31",
-          "filed": "2026-05-07",
+          "value": 77190000000,
+          "period_end": "2026-09-30",
+          "filed": "2026-11-05",
           "tag": "Assets"
         },
         "liabilities": null,
@@ -10961,7 +10961,7 @@
       },
       "coverage": 5,
       "reason": "Cours de marché et évaluation qualitative du moat non disponibles ; aucun signal de valorisation autorisé.",
-      "checked_at": "2026-11-05",
+      "checked_at": "2026-11-07",
       "quality_financial": 65,
       "quality_details": {
         "score": 65,
@@ -10972,12 +10972,12 @@
           "net_margin": 0.118658,
           "operating_cash_margin": 0.281541,
           "cash_conversion": 2.372714,
-          "return_on_assets": 0.027067
+          "return_on_assets": 0.026208
         },
         "components": {
           "net_margin": 67.5,
           "operating_cash_margin": 80.4,
-          "return_on_assets": 47.1
+          "return_on_assets": 46.2
         },
         "metric_dates": {
           "net_margin": [
@@ -10991,7 +10991,7 @@
           ],
           "return_on_assets": [
             "2025-12-31",
-            "2026-03-31"
+            "2026-09-30"
           ]
         },
         "pillars": [
@@ -11007,9 +11007,9 @@
         "interpretation": "Indice comptable exploratoire, non comparable entre secteurs sans validation."
       },
       "quality_reason": null,
-      "moat": null,
       "quality_coverage": 0.75,
       "quality_confidence": "intermédiaire",
+      "moat": null,
       "valuation_metrics": null,
       "valuation_reason": "Capitalisation boursière sous licence de redistribution indisponible."
     },
@@ -11065,7 +11065,7 @@
       },
       "coverage": 6,
       "reason": "Cours de marché et évaluation qualitative du moat non disponibles ; aucun signal de valorisation autorisé.",
-      "checked_at": "2026-11-05",
+      "checked_at": "2026-11-07",
       "quality_financial": 71,
       "quality_details": {
         "score": 71,
@@ -11119,9 +11119,9 @@
         "interpretation": "Indice comptable exploratoire, non comparable entre secteurs sans validation."
       },
       "quality_reason": null,
-      "moat": null,
       "quality_coverage": 1.0,
       "quality_confidence": "élevée",
+      "moat": null,
       "valuation_metrics": null,
       "valuation_reason": "Capitalisation boursière sous licence de redistribution indisponible."
     },
@@ -11177,7 +11177,7 @@
       },
       "coverage": 6,
       "reason": "Cours de marché et évaluation qualitative du moat non disponibles ; aucun signal de valorisation autorisé.",
-      "checked_at": "2026-11-05",
+      "checked_at": "2026-11-07",
       "quality_financial": 55,
       "quality_details": {
         "score": 55,
@@ -11232,9 +11232,9 @@
         "interpretation": "Indice comptable exploratoire, non comparable entre secteurs sans validation."
       },
       "quality_reason": null,
-      "moat": null,
       "quality_coverage": 1.0,
       "quality_confidence": "élevée",
+      "moat": null,
       "valuation_metrics": null,
       "valuation_reason": "Capitalisation boursière sous licence de redistribution indisponible."
     },
@@ -11290,7 +11290,7 @@
       },
       "coverage": 6,
       "reason": "Cours de marché et évaluation qualitative du moat non disponibles ; aucun signal de valorisation autorisé.",
-      "checked_at": "2026-11-05",
+      "checked_at": "2026-11-07",
       "quality_financial": 61,
       "quality_details": {
         "score": 61,
@@ -11344,9 +11344,9 @@
         "interpretation": "Indice comptable exploratoire, non comparable entre secteurs sans validation."
       },
       "quality_reason": null,
-      "moat": null,
       "quality_coverage": 1.0,
       "quality_confidence": "élevée",
+      "moat": null,
       "valuation_metrics": null,
       "valuation_reason": "Capitalisation boursière sous licence de redistribution indisponible."
     },
@@ -11402,7 +11402,7 @@
       },
       "coverage": 6,
       "reason": "Cours de marché et évaluation qualitative du moat non disponibles ; aucun signal de valorisation autorisé.",
-      "checked_at": "2026-11-05",
+      "checked_at": "2026-11-07",
       "quality_financial": 92,
       "quality_details": {
         "score": 92,
@@ -11436,9 +11436,9 @@
         "interpretation": "Indice comptable exploratoire, non comparable entre secteurs sans validation."
       },
       "quality_reason": null,
-      "moat": null,
       "quality_coverage": 0.5,
       "quality_confidence": "faible",
+      "moat": null,
       "valuation_metrics": null,
       "valuation_reason": "Capitalisation boursière sous licence de redistribution indisponible."
     },
@@ -11489,7 +11489,7 @@
       },
       "coverage": 5,
       "reason": "Cours de marché et évaluation qualitative du moat non disponibles ; aucun signal de valorisation autorisé.",
-      "checked_at": "2026-11-05",
+      "checked_at": "2026-11-07",
       "quality_financial": 53,
       "quality_details": {
         "score": 53,
@@ -11539,9 +11539,9 @@
         "interpretation": "Indice comptable exploratoire, non comparable entre secteurs sans validation."
       },
       "quality_reason": null,
-      "moat": null,
       "quality_coverage": 1.0,
       "quality_confidence": "élevée",
+      "moat": null,
       "valuation_metrics": null,
       "valuation_reason": "Capitalisation boursière sous licence de redistribution indisponible."
     },
@@ -11555,8 +11555,8 @@
       "valuation": null,
       "source": "SEC EDGAR / XBRL",
       "source_url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001175454.json",
-      "asof": "2026-06-30",
-      "last_filing": "2026-08-10",
+      "asof": "2026-09-30",
+      "last_filing": "2026-11-05",
       "fundamentals": {
         "revenue": {
           "value": 4528403000,
@@ -11571,9 +11571,9 @@
           "tag": "NetIncomeLoss"
         },
         "assets": {
-          "value": 28224167000,
-          "period_end": "2026-06-30",
-          "filed": "2026-08-10",
+          "value": 28087233000,
+          "period_end": "2026-09-30",
+          "filed": "2026-11-05",
           "tag": "Assets"
         },
         "liabilities": null,
@@ -11592,13 +11592,13 @@
       },
       "coverage": 5,
       "reason": "Cours de marché et évaluation qualitative du moat non disponibles ; aucun signal de valorisation autorisé.",
-      "checked_at": "2026-11-05",
+      "checked_at": "2026-11-07",
       "quality_financial": null,
       "quality_details": null,
       "quality_reason": "Secteur nécessitant un modèle spécialisé (banques, assurances ou immobilier coté).",
-      "moat": null,
       "quality_coverage": null,
       "quality_confidence": null,
+      "moat": null,
       "valuation_metrics": null,
       "valuation_reason": "Capitalisation boursière sous licence de redistribution indisponible."
     },
@@ -11654,13 +11654,13 @@
       },
       "coverage": 6,
       "reason": "Cours de marché et évaluation qualitative du moat non disponibles ; aucun signal de valorisation autorisé.",
-      "checked_at": "2026-11-05",
+      "checked_at": "2026-11-07",
       "quality_financial": null,
       "quality_details": null,
       "quality_reason": "Secteur nécessitant un modèle spécialisé (banques, assurances ou immobilier coté).",
-      "moat": null,
       "quality_coverage": null,
       "quality_confidence": null,
+      "moat": null,
       "valuation_metrics": null,
       "valuation_reason": "Capitalisation boursière sous licence de redistribution indisponible."
     },
@@ -11716,7 +11716,7 @@
       },
       "coverage": 6,
       "reason": "Cours de marché et évaluation qualitative du moat non disponibles ; aucun signal de valorisation autorisé.",
-      "checked_at": "2026-11-05",
+      "checked_at": "2026-11-07",
       "quality_financial": 45,
       "quality_details": {
         "score": 45,
@@ -11769,9 +11769,9 @@
         "interpretation": "Indice comptable exploratoire, non comparable entre secteurs sans validation."
       },
       "quality_reason": null,
-      "moat": null,
       "quality_coverage": 1.0,
       "quality_confidence": "élevée",
+      "moat": null,
       "valuation_metrics": null,
       "valuation_reason": "Capitalisation boursière sous licence de redistribution indisponible."
     },
@@ -11827,7 +11827,7 @@
       },
       "coverage": 6,
       "reason": "Cours de marché et évaluation qualitative du moat non disponibles ; aucun signal de valorisation autorisé.",
-      "checked_at": "2026-11-05",
+      "checked_at": "2026-11-07",
       "quality_financial": 54,
       "quality_details": {
         "score": 54,
@@ -11881,9 +11881,9 @@
         "interpretation": "Indice comptable exploratoire, non comparable entre secteurs sans validation."
       },
       "quality_reason": null,
-      "moat": null,
       "quality_coverage": 1.0,
       "quality_confidence": "élevée",
+      "moat": null,
       "valuation_metrics": null,
       "valuation_reason": "Capitalisation boursière sous licence de redistribution indisponible."
     },
@@ -11939,7 +11939,7 @@
       },
       "coverage": 6,
       "reason": "Cours de marché et évaluation qualitative du moat non disponibles ; aucun signal de valorisation autorisé.",
-      "checked_at": "2026-11-05",
+      "checked_at": "2026-11-07",
       "quality_financial": 44,
       "quality_details": {
         "score": 44,
@@ -11989,9 +11989,9 @@
         "interpretation": "Indice comptable exploratoire, non comparable entre secteurs sans validation."
       },
       "quality_reason": null,
-      "moat": null,
       "quality_coverage": 1.0,
       "quality_confidence": "élevée",
+      "moat": null,
       "valuation_metrics": null,
       "valuation_reason": "Capitalisation boursière sous licence de redistribution indisponible."
     },
@@ -12042,13 +12042,13 @@
       },
       "coverage": 5,
       "reason": "Cours de marché et évaluation qualitative du moat non disponibles ; aucun signal de valorisation autorisé.",
-      "checked_at": "2026-11-05",
+      "checked_at": "2026-11-07",
       "quality_financial": null,
       "quality_details": null,
       "quality_reason": "Secteur nécessitant un modèle spécialisé (banques, assurances ou immobilier coté).",
-      "moat": null,
       "quality_coverage": null,
       "quality_confidence": null,
+      "moat": null,
       "valuation_metrics": null,
       "valuation_reason": "Capitalisation boursière sous licence de redistribution indisponible."
     },
@@ -12104,7 +12104,7 @@
       },
       "coverage": 6,
       "reason": "Cours de marché et évaluation qualitative du moat non disponibles ; aucun signal de valorisation autorisé.",
-      "checked_at": "2026-11-05",
+      "checked_at": "2026-11-07",
       "quality_financial": 69,
       "quality_details": {
         "score": 69,
@@ -12158,9 +12158,9 @@
         "interpretation": "Indice comptable exploratoire, non comparable entre secteurs sans validation."
       },
       "quality_reason": null,
-      "moat": null,
       "quality_coverage": 1.0,
       "quality_confidence": "élevée",
+      "moat": null,
       "valuation_metrics": null,
       "valuation_reason": "Capitalisation boursière sous licence de redistribution indisponible."
     },
@@ -12216,7 +12216,7 @@
       },
       "coverage": 6,
       "reason": "Cours de marché et évaluation qualitative du moat non disponibles ; aucun signal de valorisation autorisé.",
-      "checked_at": "2026-11-05",
+      "checked_at": "2026-11-07",
       "quality_financial": 51,
       "quality_details": {
         "score": 51,
@@ -12254,9 +12254,9 @@
         "interpretation": "Indice comptable exploratoire, non comparable entre secteurs sans validation."
       },
       "quality_reason": null,
-      "moat": null,
       "quality_coverage": 0.5,
       "quality_confidence": "faible",
+      "moat": null,
       "valuation_metrics": null,
       "valuation_reason": "Capitalisation boursière sous licence de redistribution indisponible."
     },
@@ -12312,7 +12312,7 @@
       },
       "coverage": 6,
       "reason": "Cours de marché et évaluation qualitative du moat non disponibles ; aucun signal de valorisation autorisé.",
-      "checked_at": "2026-11-05",
+      "checked_at": "2026-11-07",
       "quality_financial": 31,
       "quality_details": {
         "score": 31,
@@ -12347,9 +12347,9 @@
         "interpretation": "Indice comptable exploratoire, non comparable entre secteurs sans validation."
       },
       "quality_reason": null,
-      "moat": null,
       "quality_coverage": 0.5,
       "quality_confidence": "faible",
+      "moat": null,
       "valuation_metrics": null,
       "valuation_reason": "Capitalisation boursière sous licence de redistribution indisponible."
     },
@@ -12405,7 +12405,7 @@
       },
       "coverage": 6,
       "reason": "Cours de marché et évaluation qualitative du moat non disponibles ; aucun signal de valorisation autorisé.",
-      "checked_at": "2026-11-05",
+      "checked_at": "2026-11-07",
       "quality_financial": 62,
       "quality_details": {
         "score": 62,
@@ -12454,9 +12454,9 @@
         "interpretation": "Indice comptable exploratoire, non comparable entre secteurs sans validation."
       },
       "quality_reason": null,
-      "moat": null,
       "quality_coverage": 0.75,
       "quality_confidence": "intermédiaire",
+      "moat": null,
       "valuation_metrics": null,
       "valuation_reason": "Capitalisation boursière sous licence de redistribution indisponible."
     },
@@ -12507,7 +12507,7 @@
       },
       "coverage": 5,
       "reason": "Cours de marché et évaluation qualitative du moat non disponibles ; aucun signal de valorisation autorisé.",
-      "checked_at": "2026-11-05",
+      "checked_at": "2026-11-07",
       "quality_financial": 41,
       "quality_details": {
         "score": 41,
@@ -12548,9 +12548,9 @@
         "interpretation": "Indice comptable exploratoire, non comparable entre secteurs sans validation."
       },
       "quality_reason": null,
-      "moat": null,
       "quality_coverage": 0.75,
       "quality_confidence": "intermédiaire",
+      "moat": null,
       "valuation_metrics": null,
       "valuation_reason": "Capitalisation boursière sous licence de redistribution indisponible."
     },
@@ -12606,7 +12606,7 @@
       },
       "coverage": 6,
       "reason": "Cours de marché et évaluation qualitative du moat non disponibles ; aucun signal de valorisation autorisé.",
-      "checked_at": "2026-11-05",
+      "checked_at": "2026-11-07",
       "quality_financial": 60,
       "quality_details": {
         "score": 60,
@@ -12660,9 +12660,9 @@
         "interpretation": "Indice comptable exploratoire, non comparable entre secteurs sans validation."
       },
       "quality_reason": null,
-      "moat": null,
       "quality_coverage": 1.0,
       "quality_confidence": "élevée",
+      "moat": null,
       "valuation_metrics": null,
       "valuation_reason": "Capitalisation boursière sous licence de redistribution indisponible."
     },
@@ -12718,7 +12718,7 @@
       },
       "coverage": 6,
       "reason": "Cours de marché et évaluation qualitative du moat non disponibles ; aucun signal de valorisation autorisé.",
-      "checked_at": "2026-11-05",
+      "checked_at": "2026-11-07",
       "quality_financial": 31,
       "quality_details": {
         "score": 31,
@@ -12772,9 +12772,9 @@
         "interpretation": "Indice comptable exploratoire, non comparable entre secteurs sans validation."
       },
       "quality_reason": null,
-      "moat": null,
       "quality_coverage": 1.0,
       "quality_confidence": "élevée",
+      "moat": null,
       "valuation_metrics": null,
       "valuation_reason": "Capitalisation boursière sous licence de redistribution indisponible."
     },
@@ -12825,7 +12825,7 @@
       },
       "coverage": 5,
       "reason": "Cours de marché et évaluation qualitative du moat non disponibles ; aucun signal de valorisation autorisé.",
-      "checked_at": "2026-11-05",
+      "checked_at": "2026-11-07",
       "quality_financial": 85,
       "quality_details": {
         "score": 85,
@@ -12874,9 +12874,9 @@
         "interpretation": "Indice comptable exploratoire, non comparable entre secteurs sans validation."
       },
       "quality_reason": null,
-      "moat": null,
       "quality_coverage": 0.75,
       "quality_confidence": "intermédiaire",
+      "moat": null,
       "valuation_metrics": null,
       "valuation_reason": "Capitalisation boursière sous licence de redistribution indisponible."
     },
@@ -12932,7 +12932,7 @@
       },
       "coverage": 6,
       "reason": "Cours de marché et évaluation qualitative du moat non disponibles ; aucun signal de valorisation autorisé.",
-      "checked_at": "2026-11-05",
+      "checked_at": "2026-11-07",
       "quality_financial": 46,
       "quality_details": {
         "score": 46,
@@ -12986,9 +12986,9 @@
         "interpretation": "Indice comptable exploratoire, non comparable entre secteurs sans validation."
       },
       "quality_reason": null,
-      "moat": null,
       "quality_coverage": 1.0,
       "quality_confidence": "élevée",
+      "moat": null,
       "valuation_metrics": null,
       "valuation_reason": "Capitalisation boursière sous licence de redistribution indisponible."
     },
@@ -13044,7 +13044,7 @@
       },
       "coverage": 6,
       "reason": "Cours de marché et évaluation qualitative du moat non disponibles ; aucun signal de valorisation autorisé.",
-      "checked_at": "2026-11-05",
+      "checked_at": "2026-11-07",
       "quality_financial": 28,
       "quality_details": {
         "score": 28,
@@ -13098,9 +13098,9 @@
         "interpretation": "Indice comptable exploratoire, non comparable entre secteurs sans validation."
       },
       "quality_reason": null,
-      "moat": null,
       "quality_coverage": 1.0,
       "quality_confidence": "élevée",
+      "moat": null,
       "valuation_metrics": null,
       "valuation_reason": "Capitalisation boursière sous licence de redistribution indisponible."
     },
@@ -13146,7 +13146,7 @@
       },
       "coverage": 4,
       "reason": "Cours de marché et évaluation qualitative du moat non disponibles ; aucun signal de valorisation autorisé.",
-      "checked_at": "2026-11-05",
+      "checked_at": "2026-11-07",
       "quality_financial": 46,
       "quality_details": {
         "score": 46,
@@ -13191,9 +13191,9 @@
         "interpretation": "Indice comptable exploratoire, non comparable entre secteurs sans validation."
       },
       "quality_reason": null,
-      "moat": null,
       "quality_coverage": 0.75,
       "quality_confidence": "intermédiaire",
+      "moat": null,
       "valuation_metrics": null,
       "valuation_reason": "Capitalisation boursière sous licence de redistribution indisponible."
     },
@@ -13207,8 +13207,8 @@
       "valuation": null,
       "source": "SEC EDGAR / XBRL",
       "source_url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001090012.json",
-      "asof": "2026-06-30",
-      "last_filing": "2026-08-05",
+      "asof": "2026-09-30",
+      "last_filing": "2026-11-06",
       "fundamentals": {
         "revenue": {
           "value": 16786000000,
@@ -13223,9 +13223,9 @@
           "tag": "NetIncomeLoss"
         },
         "assets": {
-          "value": 70893000000,
-          "period_end": "2026-06-30",
-          "filed": "2026-08-05",
+          "value": 70814000000,
+          "period_end": "2026-09-30",
+          "filed": "2026-11-06",
           "tag": "Assets"
         },
         "liabilities": null,
@@ -13244,7 +13244,7 @@
       },
       "coverage": 5,
       "reason": "Cours de marché et évaluation qualitative du moat non disponibles ; aucun signal de valorisation autorisé.",
-      "checked_at": "2026-11-05",
+      "checked_at": "2026-11-07",
       "quality_financial": 67,
       "quality_details": {
         "score": 67,
@@ -13255,12 +13255,12 @@
           "net_margin": 0.157393,
           "operating_cash_margin": 0.399797,
           "cash_conversion": 2.540121,
-          "return_on_assets": 0.037267
+          "return_on_assets": 0.037309
         },
         "components": {
           "net_margin": 69.1,
           "operating_cash_margin": 100.0,
-          "return_on_assets": 32.0
+          "return_on_assets": 32.1
         },
         "metric_dates": {
           "net_margin": [
@@ -13274,7 +13274,7 @@
           ],
           "return_on_assets": [
             "2025-12-31",
-            "2026-06-30"
+            "2026-09-30"
           ]
         },
         "pillars": [
@@ -13289,9 +13289,9 @@
         "interpretation": "Indice comptable exploratoire, non comparable entre secteurs sans validation."
       },
       "quality_reason": null,
-      "moat": null,
       "quality_coverage": 0.75,
       "quality_confidence": "intermédiaire",
+      "moat": null,
       "valuation_metrics": null,
       "valuation_reason": "Capitalisation boursière sous licence de redistribution indisponible."
     },
@@ -13347,7 +13347,7 @@
       },
       "coverage": 6,
       "reason": "Cours de marché et évaluation qualitative du moat non disponibles ; aucun signal de valorisation autorisé.",
-      "checked_at": "2026-11-05",
+      "checked_at": "2026-11-07",
       "quality_financial": 78,
       "quality_details": {
         "score": 78,
@@ -13401,9 +13401,9 @@
         "interpretation": "Indice comptable exploratoire, non comparable entre secteurs sans validation."
       },
       "quality_reason": null,
-      "moat": null,
       "quality_coverage": 1.0,
       "quality_confidence": "élevée",
+      "moat": null,
       "valuation_metrics": null,
       "valuation_reason": "Capitalisation boursière sous licence de redistribution indisponible."
     },
@@ -13454,7 +13454,7 @@
       },
       "coverage": 5,
       "reason": "Cours de marché et évaluation qualitative du moat non disponibles ; aucun signal de valorisation autorisé.",
-      "checked_at": "2026-11-05",
+      "checked_at": "2026-11-07",
       "quality_financial": 61,
       "quality_details": {
         "score": 61,
@@ -13489,9 +13489,9 @@
         "interpretation": "Indice comptable exploratoire, non comparable entre secteurs sans validation."
       },
       "quality_reason": null,
-      "moat": null,
       "quality_coverage": 0.5,
       "quality_confidence": "faible",
+      "moat": null,
       "valuation_metrics": null,
       "valuation_reason": "Capitalisation boursière sous licence de redistribution indisponible."
     },
@@ -13542,13 +13542,13 @@
       },
       "coverage": 5,
       "reason": "Cours de marché et évaluation qualitative du moat non disponibles ; aucun signal de valorisation autorisé.",
-      "checked_at": "2026-11-05",
+      "checked_at": "2026-11-07",
       "quality_financial": null,
       "quality_details": null,
       "quality_reason": "Secteur nécessitant un modèle spécialisé (banques, assurances ou immobilier coté).",
-      "moat": null,
       "quality_coverage": null,
       "quality_confidence": null,
+      "moat": null,
       "valuation_metrics": null,
       "valuation_reason": "Capitalisation boursière sous licence de redistribution indisponible."
     },
@@ -13599,7 +13599,7 @@
       },
       "coverage": 5,
       "reason": "Cours de marché et évaluation qualitative du moat non disponibles ; aucun signal de valorisation autorisé.",
-      "checked_at": "2026-11-05",
+      "checked_at": "2026-11-07",
       "quality_financial": 36,
       "quality_details": {
         "score": 36,
@@ -13649,9 +13649,9 @@
         "interpretation": "Indice comptable exploratoire, non comparable entre secteurs sans validation."
       },
       "quality_reason": null,
-      "moat": null,
       "quality_coverage": 1.0,
       "quality_confidence": "élevée",
+      "moat": null,
       "valuation_metrics": null,
       "valuation_reason": "Capitalisation boursière sous licence de redistribution indisponible."
     },
@@ -13707,7 +13707,7 @@
       },
       "coverage": 6,
       "reason": "Cours de marché et évaluation qualitative du moat non disponibles ; aucun signal de valorisation autorisé.",
-      "checked_at": "2026-11-05",
+      "checked_at": "2026-11-07",
       "quality_financial": 43,
       "quality_details": {
         "score": 43,
@@ -13748,9 +13748,9 @@
         "interpretation": "Indice comptable exploratoire, non comparable entre secteurs sans validation."
       },
       "quality_reason": null,
-      "moat": null,
       "quality_coverage": 0.75,
       "quality_confidence": "intermédiaire",
+      "moat": null,
       "valuation_metrics": null,
       "valuation_reason": "Capitalisation boursière sous licence de redistribution indisponible."
     },
