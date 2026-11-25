@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-24T08:35:58.014859+00:00",
+  "updated_at": "2026-11-25T08:40:43.147004+00:00",
   "source_label": "SEC EDGAR + S&P 500 (Wikipedia)",
   "notice": "364 indices comptables exploratoires (215 complets, 149 partiels). Aucun moat ou prix de marché analysé. Ne pas interpréter comme recommandation.",
   "universe": "S&P 500",
@@ -2210,7 +2210,7 @@
       },
       "coverage": 5,
       "reason": "Cours de marché et évaluation qualitative du moat non disponibles ; aucun signal de valorisation autorisé.",
-      "checked_at": "2026-11-19",
+      "checked_at": "2026-11-25",
       "quality_financial": null,
       "quality_details": null,
       "quality_reason": "Moins de deux indicateurs fondamentaux indépendants disponibles et comparables.",
@@ -2272,7 +2272,7 @@
       },
       "coverage": 6,
       "reason": "Cours de marché et évaluation qualitative du moat non disponibles ; aucun signal de valorisation autorisé.",
-      "checked_at": "2026-11-19",
+      "checked_at": "2026-11-25",
       "quality_financial": 37,
       "quality_details": {
         "score": 37,
@@ -2375,7 +2375,7 @@
       },
       "coverage": 5,
       "reason": "Cours de marché et évaluation qualitative du moat non disponibles ; aucun signal de valorisation autorisé.",
-      "checked_at": "2026-11-19",
+      "checked_at": "2026-11-25",
       "quality_financial": null,
       "quality_details": null,
       "quality_reason": "Moins de deux indicateurs fondamentaux indépendants disponibles et comparables.",
@@ -2437,7 +2437,7 @@
       },
       "coverage": 6,
       "reason": "Cours de marché et évaluation qualitative du moat non disponibles ; aucun signal de valorisation autorisé.",
-      "checked_at": "2026-11-19",
+      "checked_at": "2026-11-25",
       "quality_financial": 71,
       "quality_details": {
         "score": 71,
@@ -2530,7 +2530,7 @@
       },
       "coverage": 6,
       "reason": "Cours de marché et évaluation qualitative du moat non disponibles ; aucun signal de valorisation autorisé.",
-      "checked_at": "2026-11-19",
+      "checked_at": "2026-11-25",
       "quality_financial": null,
       "quality_details": null,
       "quality_reason": "Secteur nécessitant un modèle spécialisé (banques, assurances ou immobilier coté).",
@@ -2587,7 +2587,7 @@
       },
       "coverage": 5,
       "reason": "Cours de marché et évaluation qualitative du moat non disponibles ; aucun signal de valorisation autorisé.",
-      "checked_at": "2026-11-19",
+      "checked_at": "2026-11-25",
       "quality_financial": null,
       "quality_details": null,
       "quality_reason": "Secteur nécessitant un modèle spécialisé (banques, assurances ou immobilier coté).",
@@ -2649,7 +2649,7 @@
       },
       "coverage": 6,
       "reason": "Cours de marché et évaluation qualitative du moat non disponibles ; aucun signal de valorisation autorisé.",
-      "checked_at": "2026-11-19",
+      "checked_at": "2026-11-25",
       "quality_financial": null,
       "quality_details": null,
       "quality_reason": "Secteur nécessitant un modèle spécialisé (banques, assurances ou immobilier coté).",
@@ -2706,7 +2706,7 @@
       },
       "coverage": 5,
       "reason": "Cours de marché et évaluation qualitative du moat non disponibles ; aucun signal de valorisation autorisé.",
-      "checked_at": "2026-11-19",
+      "checked_at": "2026-11-25",
       "quality_financial": 83,
       "quality_details": {
         "score": 83,
@@ -2809,7 +2809,7 @@
       },
       "coverage": 5,
       "reason": "Cours de marché et évaluation qualitative du moat non disponibles ; aucun signal de valorisation autorisé.",
-      "checked_at": "2026-11-19",
+      "checked_at": "2026-11-25",
       "quality_financial": null,
       "quality_details": null,
       "quality_reason": "Secteur nécessitant un modèle spécialisé (banques, assurances ou immobilier coté).",
@@ -2871,7 +2871,7 @@
       },
       "coverage": 6,
       "reason": "Cours de marché et évaluation qualitative du moat non disponibles ; aucun signal de valorisation autorisé.",
-      "checked_at": "2026-11-19",
+      "checked_at": "2026-11-25",
       "quality_financial": 73,
       "quality_details": {
         "score": 73,
@@ -2978,7 +2978,7 @@
       },
       "coverage": 5,
       "reason": "Cours de marché et évaluation qualitative du moat non disponibles ; aucun signal de valorisation autorisé.",
-      "checked_at": "2026-11-19",
+      "checked_at": "2026-11-25",
       "quality_financial": 77,
       "quality_details": {
         "score": 77,
@@ -3085,7 +3085,7 @@
       },
       "coverage": 6,
       "reason": "Cours de marché et évaluation qualitative du moat non disponibles ; aucun signal de valorisation autorisé.",
-      "checked_at": "2026-11-19",
+      "checked_at": "2026-11-25",
       "quality_financial": 67,
       "quality_details": {
         "score": 67,
@@ -3155,78 +3155,77 @@
       "valuation": null,
       "source": "SEC EDGAR / XBRL",
       "source_url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000006281.json",
-      "asof": "2026-08-01",
-      "last_filing": "2026-08-19",
+      "asof": "2026-10-31",
+      "last_filing": "2026-11-24",
       "fundamentals": {
         "revenue": {
-          "value": 11019707000,
-          "period_end": "2025-11-01",
-          "filed": "2025-11-25",
+          "value": 15179047000,
+          "period_end": "2026-10-31",
+          "filed": "2026-11-24",
           "tag": "RevenueFromContractWithCustomerExcludingAssessedTax"
         },
         "net_income": {
-          "value": 2267342000,
-          "period_end": "2025-11-01",
-          "filed": "2025-11-25",
+          "value": 4997425000,
+          "period_end": "2026-10-31",
+          "filed": "2026-11-24",
           "tag": "NetIncomeLoss"
         },
         "assets": {
-          "value": 48424417000,
-          "period_end": "2026-08-01",
-          "filed": "2026-08-19",
+          "value": 51526674000,
+          "period_end": "2026-10-31",
+          "filed": "2026-11-24",
           "tag": "Assets"
         },
         "liabilities": null,
         "operating_cash": {
-          "value": 4812202000,
-          "period_end": "2025-11-01",
-          "filed": "2025-11-25",
+          "value": 6185545000,
+          "period_end": "2026-10-31",
+          "filed": "2026-11-24",
           "tag": "NetCashProvidedByUsedInOperatingActivities"
         },
         "capex": {
-          "value": 533552000,
-          "period_end": "2025-11-01",
-          "filed": "2025-11-25",
+          "value": 732910000,
+          "period_end": "2026-10-31",
+          "filed": "2026-11-24",
           "tag": "PaymentsToAcquirePropertyPlantAndEquipment"
         }
       },
       "coverage": 5,
       "reason": "Cours de marché et évaluation qualitative du moat non disponibles ; aucun signal de valorisation autorisé.",
-      "checked_at": "2026-11-19",
-      "quality_financial": 74,
+      "checked_at": "2026-11-25",
+      "quality_financial": 87,
       "quality_details": {
-        "score": 74,
+        "score": 87,
         "model": "quality-financial-v2",
         "coverage": 0.75,
         "confidence": "intermédiaire",
         "metrics": {
-          "net_margin": 0.205753,
-          "operating_cash_margin": 0.436691,
-          "fcf_margin": 0.388273,
-          "cash_conversion": 2.122398,
-          "return_on_assets": 0.046822
+          "net_margin": 0.329232,
+          "operating_cash_margin": 0.407505,
+          "fcf_margin": 0.359221,
+          "cash_conversion": 1.237746,
+          "return_on_assets": 0.096987
         },
         "components": {
-          "net_margin": 85.3,
+          "net_margin": 100.0,
           "operating_cash_margin": 100.0,
-          "return_on_assets": 36.6
+          "return_on_assets": 60.5
         },
         "metric_dates": {
           "net_margin": [
-            "2025-11-01"
+            "2026-10-31"
           ],
           "operating_cash_margin": [
-            "2025-11-01"
+            "2026-10-31"
           ],
           "fcf_margin": [
-            "2025-11-01"
+            "2026-10-31"
           ],
           "cash_conversion": [
-            "2025-11-01"
+            "2026-10-31"
           ],
           "return_on_assets": [
-            "2025-11-01",
-            "2026-08-01"
+            "2026-10-31"
           ]
         },
         "pillars": [
@@ -3299,7 +3298,7 @@
       },
       "coverage": 6,
       "reason": "Cours de marché et évaluation qualitative du moat non disponibles ; aucun signal de valorisation autorisé.",
-      "checked_at": "2026-11-19",
+      "checked_at": "2026-11-25",
       "quality_financial": null,
       "quality_details": null,
       "quality_reason": "Secteur nécessitant un modèle spécialisé (banques, assurances ou immobilier coté).",
@@ -3346,7 +3345,7 @@
       },
       "coverage": 3,
       "reason": "Cours de marché et évaluation qualitative du moat non disponibles ; aucun signal de valorisation autorisé.",
-      "checked_at": "2026-11-19",
+      "checked_at": "2026-11-25",
       "quality_financial": null,
       "quality_details": null,
       "quality_reason": "Moins de deux indicateurs fondamentaux indépendants disponibles et comparables.",
@@ -3403,7 +3402,7 @@
       },
       "coverage": 5,
       "reason": "Cours de marché et évaluation qualitative du moat non disponibles ; aucun signal de valorisation autorisé.",
-      "checked_at": "2026-11-19",
+      "checked_at": "2026-11-25",
       "quality_financial": null,
       "quality_details": null,
       "quality_reason": "Secteur nécessitant un modèle spécialisé (banques, assurances ou immobilier coté).",
@@ -3465,7 +3464,7 @@
       },
       "coverage": 6,
       "reason": "Cours de marché et évaluation qualitative du moat non disponibles ; aucun signal de valorisation autorisé.",
-      "checked_at": "2026-11-19",
+      "checked_at": "2026-11-25",
       "quality_financial": 84,
       "quality_details": {
         "score": 84,
@@ -3576,7 +3575,7 @@
       },
       "coverage": 6,
       "reason": "Cours de marché et évaluation qualitative du moat non disponibles ; aucun signal de valorisation autorisé.",
-      "checked_at": "2026-11-19",
+      "checked_at": "2026-11-25",
       "quality_financial": 94,
       "quality_details": {
         "score": 94,
@@ -3688,7 +3687,7 @@
       },
       "coverage": 6,
       "reason": "Cours de marché et évaluation qualitative du moat non disponibles ; aucun signal de valorisation autorisé.",
-      "checked_at": "2026-11-19",
+      "checked_at": "2026-11-25",
       "quality_financial": 89,
       "quality_details": {
         "score": 89,
@@ -3796,7 +3795,7 @@
       },
       "coverage": 6,
       "reason": "Cours de marché et évaluation qualitative du moat non disponibles ; aucun signal de valorisation autorisé.",
-      "checked_at": "2026-11-19",
+      "checked_at": "2026-11-25",
       "quality_financial": 39,
       "quality_details": {
         "score": 39,
@@ -3899,7 +3898,7 @@
       },
       "coverage": 5,
       "reason": "Cours de marché et évaluation qualitative du moat non disponibles ; aucun signal de valorisation autorisé.",
-      "checked_at": "2026-11-19",
+      "checked_at": "2026-11-25",
       "quality_financial": null,
       "quality_details": null,
       "quality_reason": "Secteur nécessitant un modèle spécialisé (banques, assurances ou immobilier coté).",
@@ -3956,7 +3955,7 @@
       },
       "coverage": 5,
       "reason": "Cours de marché et évaluation qualitative du moat non disponibles ; aucun signal de valorisation autorisé.",
-      "checked_at": "2026-11-19",
+      "checked_at": "2026-11-25",
       "quality_financial": 44,
       "quality_details": {
         "score": 44,
@@ -36338,7 +36337,7 @@
       },
       "coverage": 5,
       "reason": "Cours de marché et évaluation qualitative du moat non disponibles ; aucun signal de valorisation autorisé.",
-      "checked_at": "2026-11-18",
+      "checked_at": "2026-11-25",
       "quality_financial": 60,
       "quality_details": {
         "score": 60,
@@ -36445,7 +36444,7 @@
       },
       "coverage": 6,
       "reason": "Cours de marché et évaluation qualitative du moat non disponibles ; aucun signal de valorisation autorisé.",
-      "checked_at": "2026-11-18",
+      "checked_at": "2026-11-25",
       "quality_financial": 73,
       "quality_details": {
         "score": 73,
@@ -36557,7 +36556,7 @@
       },
       "coverage": 6,
       "reason": "Cours de marché et évaluation qualitative du moat non disponibles ; aucun signal de valorisation autorisé.",
-      "checked_at": "2026-11-18",
+      "checked_at": "2026-11-25",
       "quality_financial": 45,
       "quality_details": {
         "score": 45,
@@ -36669,7 +36668,7 @@
       },
       "coverage": 6,
       "reason": "Cours de marché et évaluation qualitative du moat non disponibles ; aucun signal de valorisation autorisé.",
-      "checked_at": "2026-11-18",
+      "checked_at": "2026-11-25",
       "quality_financial": null,
       "quality_details": null,
       "quality_reason": "Secteur nécessitant un modèle spécialisé (banques, assurances ou immobilier coté).",
@@ -36731,7 +36730,7 @@
       },
       "coverage": 6,
       "reason": "Cours de marché et évaluation qualitative du moat non disponibles ; aucun signal de valorisation autorisé.",
-      "checked_at": "2026-11-18",
+      "checked_at": "2026-11-25",
       "quality_financial": 68,
       "quality_details": {
         "score": 68,
@@ -36843,7 +36842,7 @@
       },
       "coverage": 6,
       "reason": "Cours de marché et évaluation qualitative du moat non disponibles ; aucun signal de valorisation autorisé.",
-      "checked_at": "2026-11-18",
+      "checked_at": "2026-11-25",
       "quality_financial": 100,
       "quality_details": {
         "score": 100,
@@ -36950,7 +36949,7 @@
       },
       "coverage": 5,
       "reason": "Cours de marché et évaluation qualitative du moat non disponibles ; aucun signal de valorisation autorisé.",
-      "checked_at": "2026-11-18",
+      "checked_at": "2026-11-25",
       "quality_financial": null,
       "quality_details": null,
       "quality_reason": "Secteur nécessitant un modèle spécialisé (banques, assurances ou immobilier coté).",
@@ -37012,7 +37011,7 @@
       },
       "coverage": 6,
       "reason": "Cours de marché et évaluation qualitative du moat non disponibles ; aucun signal de valorisation autorisé.",
-      "checked_at": "2026-11-18",
+      "checked_at": "2026-11-25",
       "quality_financial": 57,
       "quality_details": {
         "score": 57,
@@ -37124,7 +37123,7 @@
       },
       "coverage": 6,
       "reason": "Cours de marché et évaluation qualitative du moat non disponibles ; aucun signal de valorisation autorisé.",
-      "checked_at": "2026-11-18",
+      "checked_at": "2026-11-25",
       "quality_financial": 87,
       "quality_details": {
         "score": 87,
@@ -37226,7 +37225,7 @@
       },
       "coverage": 4,
       "reason": "Cours de marché et évaluation qualitative du moat non disponibles ; aucun signal de valorisation autorisé.",
-      "checked_at": "2026-11-18",
+      "checked_at": "2026-11-25",
       "quality_financial": 72,
       "quality_details": {
         "score": 72,
@@ -37330,7 +37329,7 @@
       },
       "coverage": 6,
       "reason": "Cours de marché et évaluation qualitative du moat non disponibles ; aucun signal de valorisation autorisé.",
-      "checked_at": "2026-11-18",
+      "checked_at": "2026-11-25",
       "quality_financial": 65,
       "quality_details": {
         "score": 65,
@@ -37437,7 +37436,7 @@
       },
       "coverage": 5,
       "reason": "Cours de marché et évaluation qualitative du moat non disponibles ; aucun signal de valorisation autorisé.",
-      "checked_at": "2026-11-18",
+      "checked_at": "2026-11-25",
       "quality_financial": 56,
       "quality_details": {
         "score": 56,
@@ -37530,7 +37529,7 @@
       },
       "coverage": 4,
       "reason": "Cours de marché et évaluation qualitative du moat non disponibles ; aucun signal de valorisation autorisé.",
-      "checked_at": "2026-11-18",
+      "checked_at": "2026-11-25",
       "quality_financial": null,
       "quality_details": null,
       "quality_reason": "Secteur nécessitant un modèle spécialisé (banques, assurances ou immobilier coté).",
@@ -37587,7 +37586,7 @@
       },
       "coverage": 5,
       "reason": "Cours de marché et évaluation qualitative du moat non disponibles ; aucun signal de valorisation autorisé.",
-      "checked_at": "2026-11-18",
+      "checked_at": "2026-11-25",
       "quality_financial": null,
       "quality_details": null,
       "quality_reason": "Moins de deux indicateurs fondamentaux indépendants disponibles et comparables.",
@@ -37649,7 +37648,7 @@
       },
       "coverage": 6,
       "reason": "Cours de marché et évaluation qualitative du moat non disponibles ; aucun signal de valorisation autorisé.",
-      "checked_at": "2026-11-18",
+      "checked_at": "2026-11-25",
       "quality_financial": 50,
       "quality_details": {
         "score": 50,
@@ -37718,8 +37717,8 @@
       "valuation": null,
       "source": "SEC EDGAR / XBRL",
       "source_url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000091419.json",
-      "asof": "2026-07-31",
-      "last_filing": "2026-08-26",
+      "asof": "2026-10-31",
+      "last_filing": "2026-11-24",
       "fundamentals": {
         "revenue": {
           "value": 9050900000,
@@ -37734,15 +37733,15 @@
           "tag": "NetIncomeLoss"
         },
         "assets": {
-          "value": 16203200000,
-          "period_end": "2026-07-31",
-          "filed": "2026-08-26",
+          "value": 16326800000,
+          "period_end": "2026-10-31",
+          "filed": "2026-11-24",
           "tag": "Assets"
         },
         "liabilities": {
-          "value": 10452400000,
-          "period_end": "2026-07-31",
-          "filed": "2026-08-26",
+          "value": 10421400000,
+          "period_end": "2026-10-31",
+          "filed": "2026-11-24",
           "tag": "Liabilities"
         },
         "operating_cash": {
@@ -37760,10 +37759,10 @@
       },
       "coverage": 6,
       "reason": "Cours de marché et évaluation qualitative du moat non disponibles ; aucun signal de valorisation autorisé.",
-      "checked_at": "2026-11-18",
-      "quality_financial": 33,
+      "checked_at": "2026-11-25",
+      "quality_financial": 34,
       "quality_details": {
-        "score": 33,
+        "score": 34,
         "model": "quality-financial-v2",
         "coverage": 1.0,
         "confidence": "élevée",
@@ -37771,14 +37770,14 @@
           "net_margin": -0.015324,
           "operating_cash_margin": 0.162813,
           "fcf_margin": 0.127744,
-          "return_on_assets": -0.00856,
-          "equity_ratio": 0.354918
+          "return_on_assets": -0.008495,
+          "equity_ratio": 0.3617
         },
         "components": {
           "net_margin": 11.6,
           "operating_cash_margin": 60.8,
           "return_on_assets": 10.2,
-          "equity_ratio": 50.8
+          "equity_ratio": 51.9
         },
         "metric_dates": {
           "net_margin": [
@@ -37792,10 +37791,10 @@
           ],
           "return_on_assets": [
             "2026-04-30",
-            "2026-07-31"
+            "2026-10-31"
           ],
           "equity_ratio": [
-            "2026-07-31"
+            "2026-10-31"
           ]
         },
         "pillars": [
@@ -37863,7 +37862,7 @@
       },
       "coverage": 5,
       "reason": "Cours de marché et évaluation qualitative du moat non disponibles ; aucun signal de valorisation autorisé.",
-      "checked_at": "2026-11-18",
+      "checked_at": "2026-11-25",
       "quality_financial": 37,
       "quality_details": {
         "score": 37,
@@ -37966,7 +37965,7 @@
       },
       "coverage": 5,
       "reason": "Cours de marché et évaluation qualitative du moat non disponibles ; aucun signal de valorisation autorisé.",
-      "checked_at": "2026-11-18",
+      "checked_at": "2026-11-25",
       "quality_financial": 85,
       "quality_details": {
         "score": 85,
@@ -38074,7 +38073,7 @@
       },
       "coverage": 6,
       "reason": "Cours de marché et évaluation qualitative du moat non disponibles ; aucun signal de valorisation autorisé.",
-      "checked_at": "2026-11-18",
+      "checked_at": "2026-11-25",
       "quality_financial": 55,
       "quality_details": {
         "score": 55,
@@ -38186,7 +38185,7 @@
       },
       "coverage": 6,
       "reason": "Cours de marché et évaluation qualitative du moat non disponibles ; aucun signal de valorisation autorisé.",
-      "checked_at": "2026-11-18",
+      "checked_at": "2026-11-25",
       "quality_financial": 67,
       "quality_details": {
         "score": 67,
@@ -38294,7 +38293,7 @@
       },
       "coverage": 5,
       "reason": "Cours de marché et évaluation qualitative du moat non disponibles ; aucun signal de valorisation autorisé.",
-      "checked_at": "2026-11-18",
+      "checked_at": "2026-11-25",
       "quality_financial": 25,
       "quality_details": {
         "score": 25,
@@ -38392,7 +38391,7 @@
       },
       "coverage": 5,
       "reason": "Cours de marché et évaluation qualitative du moat non disponibles ; aucun signal de valorisation autorisé.",
-      "checked_at": "2026-11-18",
+      "checked_at": "2026-11-25",
       "quality_financial": 27,
       "quality_details": {
         "score": 27,
@@ -38499,7 +38498,7 @@
       },
       "coverage": 6,
       "reason": "Cours de marché et évaluation qualitative du moat non disponibles ; aucun signal de valorisation autorisé.",
-      "checked_at": "2026-11-18",
+      "checked_at": "2026-11-25",
       "quality_financial": 37,
       "quality_details": {
         "score": 37,
@@ -38610,7 +38609,7 @@
       },
       "coverage": 6,
       "reason": "Cours de marché et évaluation qualitative du moat non disponibles ; aucun signal de valorisation autorisé.",
-      "checked_at": "2026-11-18",
+      "checked_at": "2026-11-25",
       "quality_financial": null,
       "quality_details": null,
       "quality_reason": "Secteur nécessitant un modèle spécialisé (banques, assurances ou immobilier coté).",
@@ -38672,7 +38671,7 @@
       },
       "coverage": 6,
       "reason": "Cours de marché et évaluation qualitative du moat non disponibles ; aucun signal de valorisation autorisé.",
-      "checked_at": "2026-11-18",
+      "checked_at": "2026-11-25",
       "quality_financial": 51,
       "quality_details": {
         "score": 51,
@@ -38784,7 +38783,7 @@
       },
       "coverage": 6,
       "reason": "Cours de marché et évaluation qualitative du moat non disponibles ; aucun signal de valorisation autorisé.",
-      "checked_at": "2026-11-18",
+      "checked_at": "2026-11-25",
       "quality_financial": 72,
       "quality_details": {
         "score": 72,
@@ -38896,7 +38895,7 @@
       },
       "coverage": 6,
       "reason": "Cours de marché et évaluation qualitative du moat non disponibles ; aucun signal de valorisation autorisé.",
-      "checked_at": "2026-11-18",
+      "checked_at": "2026-11-25",
       "quality_financial": 63,
       "quality_details": {
         "score": 63,
@@ -39008,7 +39007,7 @@
       },
       "coverage": 6,
       "reason": "Cours de marché et évaluation qualitative du moat non disponibles ; aucun signal de valorisation autorisé.",
-      "checked_at": "2026-11-18",
+      "checked_at": "2026-11-25",
       "quality_financial": 37,
       "quality_details": {
         "score": 37,
@@ -39110,7 +39109,7 @@
       },
       "coverage": 4,
       "reason": "Cours de marché et évaluation qualitative du moat non disponibles ; aucun signal de valorisation autorisé.",
-      "checked_at": "2026-11-18",
+      "checked_at": "2026-11-25",
       "quality_financial": null,
       "quality_details": null,
       "quality_reason": "Secteur nécessitant un modèle spécialisé (banques, assurances ou immobilier coté).",
@@ -39172,7 +39171,7 @@
       },
       "coverage": 6,
       "reason": "Cours de marché et évaluation qualitative du moat non disponibles ; aucun signal de valorisation autorisé.",
-      "checked_at": "2026-11-18",
+      "checked_at": "2026-11-25",
       "quality_financial": 71,
       "quality_details": {
         "score": 71,
@@ -39274,7 +39273,7 @@
       },
       "coverage": 4,
       "reason": "Cours de marché et évaluation qualitative du moat non disponibles ; aucun signal de valorisation autorisé.",
-      "checked_at": "2026-11-18",
+      "checked_at": "2026-11-25",
       "quality_financial": 30,
       "quality_details": {
         "score": 30,
@@ -39377,7 +39376,7 @@
       },
       "coverage": 6,
       "reason": "Cours de marché et évaluation qualitative du moat non disponibles ; aucun signal de valorisation autorisé.",
-      "checked_at": "2026-11-18",
+      "checked_at": "2026-11-25",
       "quality_financial": 66,
       "quality_details": {
         "score": 66,
@@ -39484,7 +39483,7 @@
       },
       "coverage": 6,
       "reason": "Cours de marché et évaluation qualitative du moat non disponibles ; aucun signal de valorisation autorisé.",
-      "checked_at": "2026-11-18",
+      "checked_at": "2026-11-25",
       "quality_financial": null,
       "quality_details": null,
       "quality_reason": "Secteur nécessitant un modèle spécialisé (banques, assurances ou immobilier coté).",
@@ -39546,7 +39545,7 @@
       },
       "coverage": 6,
       "reason": "Cours de marché et évaluation qualitative du moat non disponibles ; aucun signal de valorisation autorisé.",
-      "checked_at": "2026-11-18",
+      "checked_at": "2026-11-25",
       "quality_financial": 25,
       "quality_details": {
         "score": 25,
@@ -39654,7 +39653,7 @@
       },
       "coverage": 6,
       "reason": "Cours de marché et évaluation qualitative du moat non disponibles ; aucun signal de valorisation autorisé.",
-      "checked_at": "2026-11-18",
+      "checked_at": "2026-11-25",
       "quality_financial": 66,
       "quality_details": {
         "score": 66,
@@ -39761,7 +39760,7 @@
       },
       "coverage": 5,
       "reason": "Cours de marché et évaluation qualitative du moat non disponibles ; aucun signal de valorisation autorisé.",
-      "checked_at": "2026-11-18",
+      "checked_at": "2026-11-25",
       "quality_financial": null,
       "quality_details": null,
       "quality_reason": "Moins de deux indicateurs fondamentaux indépendants disponibles et comparables.",
@@ -39818,7 +39817,7 @@
       },
       "coverage": 5,
       "reason": "Cours de marché et évaluation qualitative du moat non disponibles ; aucun signal de valorisation autorisé.",
-      "checked_at": "2026-11-18",
+      "checked_at": "2026-11-25",
       "quality_financial": 35,
       "quality_details": {
         "score": 35,
@@ -39925,7 +39924,7 @@
       },
       "coverage": 6,
       "reason": "Cours de marché et évaluation qualitative du moat non disponibles ; aucun signal de valorisation autorisé.",
-      "checked_at": "2026-11-18",
+      "checked_at": "2026-11-25",
       "quality_financial": 75,
       "quality_details": {
         "score": 75,
@@ -40036,7 +40035,7 @@
       },
       "coverage": 6,
       "reason": "Cours de marché et évaluation qualitative du moat non disponibles ; aucun signal de valorisation autorisé.",
-      "checked_at": "2026-11-18",
+      "checked_at": "2026-11-25",
       "quality_financial": 69,
       "quality_details": {
         "score": 69,
@@ -40148,7 +40147,7 @@
       },
       "coverage": 6,
       "reason": "Cours de marché et évaluation qualitative du moat non disponibles ; aucun signal de valorisation autorisé.",
-      "checked_at": "2026-11-18",
+      "checked_at": "2026-11-25",
       "quality_financial": 81,
       "quality_details": {
         "score": 81,
@@ -40241,7 +40240,7 @@
       },
       "coverage": 6,
       "reason": "Cours de marché et évaluation qualitative du moat non disponibles ; aucun signal de valorisation autorisé.",
-      "checked_at": "2026-11-18",
+      "checked_at": "2026-11-25",
       "quality_financial": 50,
       "quality_details": {
         "score": 50,
@@ -40353,7 +40352,7 @@
       },
       "coverage": 6,
       "reason": "Cours de marché et évaluation qualitative du moat non disponibles ; aucun signal de valorisation autorisé.",
-      "checked_at": "2026-11-18",
+      "checked_at": "2026-11-25",
       "quality_financial": 89,
       "quality_details": {
         "score": 89,
@@ -40465,7 +40464,7 @@
       },
       "coverage": 6,
       "reason": "Cours de marché et évaluation qualitative du moat non disponibles ; aucun signal de valorisation autorisé.",
-      "checked_at": "2026-11-18",
+      "checked_at": "2026-11-25",
       "quality_financial": 100,
       "quality_details": {
         "score": 100,
@@ -40568,7 +40567,7 @@
       },
       "coverage": 5,
       "reason": "Cours de marché et évaluation qualitative du moat non disponibles ; aucun signal de valorisation autorisé.",
-      "checked_at": "2026-11-18",
+      "checked_at": "2026-11-25",
       "quality_financial": 52,
       "quality_details": {
         "score": 52,
@@ -40656,7 +40655,7 @@
       },
       "coverage": 5,
       "reason": "Cours de marché et évaluation qualitative du moat non disponibles ; aucun signal de valorisation autorisé.",
-      "checked_at": "2026-11-18",
+      "checked_at": "2026-11-25",
       "quality_financial": 58,
       "quality_details": {
         "score": 58,
@@ -40758,7 +40757,7 @@
       },
       "coverage": 5,
       "reason": "Cours de marché et évaluation qualitative du moat non disponibles ; aucun signal de valorisation autorisé.",
-      "checked_at": "2026-11-18",
+      "checked_at": "2026-11-25",
       "quality_financial": null,
       "quality_details": null,
       "quality_reason": "Moins de deux indicateurs fondamentaux indépendants disponibles et comparables.",
@@ -40815,7 +40814,7 @@
       },
       "coverage": 5,
       "reason": "Cours de marché et évaluation qualitative du moat non disponibles ; aucun signal de valorisation autorisé.",
-      "checked_at": "2026-11-18",
+      "checked_at": "2026-11-25",
       "quality_financial": 55,
       "quality_details": {
         "score": 55,
@@ -40923,7 +40922,7 @@
       },
       "coverage": 6,
       "reason": "Cours de marché et évaluation qualitative du moat non disponibles ; aucun signal de valorisation autorisé.",
-      "checked_at": "2026-11-18",
+      "checked_at": "2026-11-25",
       "quality_financial": 42,
       "quality_details": {
         "score": 42,
@@ -41035,7 +41034,7 @@
       },
       "coverage": 6,
       "reason": "Cours de marché et évaluation qualitative du moat non disponibles ; aucun signal de valorisation autorisé.",
-      "checked_at": "2026-11-18",
+      "checked_at": "2026-11-25",
       "quality_financial": 62,
       "quality_details": {
         "score": 62,
@@ -41143,7 +41142,7 @@
       },
       "coverage": 6,
       "reason": "Cours de marché et évaluation qualitative du moat non disponibles ; aucun signal de valorisation autorisé.",
-      "checked_at": "2026-11-18",
+      "checked_at": "2026-11-25",
       "quality_financial": 25,
       "quality_details": {
         "score": 25,
@@ -41230,7 +41229,7 @@
       },
       "coverage": 5,
       "reason": "Cours de marché et évaluation qualitative du moat non disponibles ; aucun signal de valorisation autorisé.",
-      "checked_at": "2026-11-18",
+      "checked_at": "2026-11-25",
       "quality_financial": null,
       "quality_details": null,
       "quality_reason": "Secteur nécessitant un modèle spécialisé (banques, assurances ou immobilier coté).",
@@ -41292,7 +41291,7 @@
       },
       "coverage": 6,
       "reason": "Cours de marché et évaluation qualitative du moat non disponibles ; aucun signal de valorisation autorisé.",
-      "checked_at": "2026-11-18",
+      "checked_at": "2026-11-25",
       "quality_financial": 57,
       "quality_details": {
         "score": 57,
@@ -41394,7 +41393,7 @@
       },
       "coverage": 4,
       "reason": "Cours de marché et évaluation qualitative du moat non disponibles ; aucun signal de valorisation autorisé.",
-      "checked_at": "2026-11-18",
+      "checked_at": "2026-11-25",
       "quality_financial": null,
       "quality_details": null,
       "quality_reason": "Secteur nécessitant un modèle spécialisé (banques, assurances ou immobilier coté).",
